@@ -1,0 +1,236 @@
+.heading_freq h1{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #000000;
+    margin: 3rem 0px 0px 0px;
+}
+section.freq_main .accordions .accordion .accordion-header {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px 4px 0 0;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.25;
+    padding: 1.2em 1em 1.2em 2em;
+    position: relative;
+    border-width: 1px 1px 0px 1px;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-radius: 0px;
+}
+section.freq_main .accordion-content p{
+    font-size: 1rem;
+    color: #84818A;
+    font-weight: 400;
+}
+section.freq_main .accordions .accordion .accordion-header+.accordion-body .accordion-content {
+    padding: 0em 2em 1em 2em;
+}
+section.freq_main .accordions .accordion .accordion-header+.accordion-body {
+    border: 1px solid #DDDDDD;
+    border-radius: 0;
+    border-top: none;
+   
+}
+
+section.freq_main .accordions .accordion {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff !important;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+section.freq_main .accordions .accordion:not(:last-child) {
+    margin-bottom: 1rem;
+}
+section.freq_main .accordions .accordion .accordion-header .toggle::before {
+    color: #808080;
+    font-size: 25px;
+    top: -7px;
+   
+}
+section.freq_main .accordion-header p {
+    color: #303841;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+section.freq_main .accordions .accordion .accordion-header .toggle {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 290486px;
+    display: inline-block;
+    flex-grow: 20;
+    flex-shrink: 0;
+    margin-left: -0.75em;
+    height: 25px;
+    width: 450px;
+    max-height: 25px;
+    max-width: 700px;
+    min-height: 25px;
+    min-width: 20px;
+    outline: 0;
+    position: relative;
+    vertical-align: top;
+}
+.accordions .accordion .accordion-header .toggle::before { 
+    left: 43rem !important; 
+}
+.still_q{
+    margin: 2.5rem 0;
+    text-align: center;
+    padding: 0 6rem;
+}
+.still_q h2{
+    color: #303841;
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+.still_q p{
+    color:#84818A;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.still_q p span a{ 
+    color:#5ab2ff;
+    
+}
+.heading_freq{
+    text-align: center;
+}
+/* article.accordion.is-active .accordion-header{
+    padding: 1.2em 1em .5em 2em !important;
+} */
+article.accordion.is-active .accordion-header p{
+    color: #5ab2ff;
+}
+article.accordion.is-active .accordion-header .toggle::before{
+    color: #5ab2ff !important;
+}
+
+@media screen and (max-width: 991px){
+    .still_q{
+        margin: 2.5rem 0;
+        text-align: center;
+        padding: 0 0rem;
+    }
+    .freq_main{
+        padding: 0 1rem
+    }
+    .heading_freq{
+        text-align: left;
+    }
+    .heading_freq h1{
+        font-size: 1.6669rem;
+        font-weight: 600;
+        color: #000000;
+        margin: 2rem 0px 0px 0px;
+    }
+    section.freq_main .accordion-header p {
+        color: #303841;
+        font-size: 1.3331rem;
+        font-weight: 600;
+    }
+    section.freq_main .accordion-content p {
+        font-size: 1.1669rem;
+        color: #84818A;
+        font-weight: 400;
+    }
+    .still_q h2 {
+        color: #303841;
+        font-size: 1.8331rem;
+        font-weight: 600;
+    }
+    .still_q p {
+        color: #84818A;
+        font-size: 1.1669rem;
+        font-weight: 500;
+    }
+    section.freq_main .accordions .accordion .accordion-header .toggle {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background-color: transparent;
+        border: none;
+        border-radius: 290486px;
+        display: inline-block;
+        flex-grow: 20;
+        flex-shrink: 0;
+        margin-left: -0.75em;
+        height: 62px;
+        width: 312px;
+        max-height: 62px;
+        max-width: 675px;
+        min-height: 62px;
+        min-width: 20px;
+        outline: 0;
+        position: relative;
+        vertical-align: top;
+    }
+    .accordions .accordion .accordion-header .toggle::before { 
+        left: 43rem !important; 
+    }
+    section.freq_main .accordions .accordion .accordion-header {
+        align-items: center;
+        background-color: #fff;
+        border-radius: 4px 4px 0 0;
+        color: #000;
+        display: flex;
+        justify-content: space-between;
+        line-height: 1.25;
+        padding: 1.8em 1em 1.2em 1.8em;
+        position: relative;
+        border-width: 1px 1px 0px 1px;
+        border-color: #DDDDDD;
+        border-style: solid;
+        border-radius: 0px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .accordions .accordion .accordion-header .toggle::before { 
+        left: 21rem !important; 
+    }
+    section.freq_main .accordions .accordion .accordion-header .toggle {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background-color: transparent;
+        border: none;
+        border-radius: 290486px;
+        display: inline-block;
+        flex-grow: 20;
+        flex-shrink: 0;
+        margin-left: -0.75em;
+        height: 62px;
+        width: 312px;
+        max-height: 62px;
+        max-width: 324px;
+        min-height: 62px;
+        min-width: 20px;
+        outline: 0;
+        position: relative;
+        vertical-align: top;
+    }
+}
+@media only screen and (width: 650px) {
+.accordions .accordion .accordion-header .toggle::before {
+    left: 35rem !important;
+}
+}
+  

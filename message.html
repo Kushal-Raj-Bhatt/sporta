@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cobe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/be0be6d488.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="bulma/css/style.css">
+    <link rel="stylesheet" type="text/css" href="bulma/css/screen5.css">
+    <link rel="stylesheet" type="text/css" href="bulma/css/screen18.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="my_header">
+          <div class="container">
+            <nav class="navbar has-background-grey-dark" role="navigation" aria-label="main navigation">
+              <div class="navbar-brand">
+                <a class="navbar-item mob_center" href="index.html">SPORTA</a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                  data-target="navbarBasicExample">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+                <div class="user_log is-hidden-desktop">
+                  <div class="pic_user">
+                   <img src="bulma/images/boxing.jpg" alt="">
+                  </div>
+                  </div>
+              </div>
+    
+              <div id="navbarBasicExample" class="navbar-menu ">
+                <div class="navbar-end">
+                  <a class="navbar-item has-text-grey-light" href="index.html">
+                    Home
+                  </a>
+    
+                  <a class="navbar-item has-text-grey-light" href="games.html">
+                    Games 
+                  </a>
+                  <a class="navbar-item has-text-grey-light" href="coach.html">
+                    Our Coaches
+                  </a>
+                  <a class="navbar-item has-text-grey-light" href="dashboard.html">
+                   Your Dashboard
+                  </a>
+                  <div class="navbar-item">
+                    <div class="buttons">
+                      <a class="button is-white" href="sign-up.html">
+                        <span class="text-color has-text-weight-semibold">SIGN UP</span>
+                      </a>
+                      <a class="button has-text-white has-text-weight-semibold text-background" href="login.html">
+                        LOGIN
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+    <section class="hero is-white my_left my_right">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-12 is-12-mobile pt-4 pb-6 main_msg_body">
+                    <div class="column is-3 is-12-mobile" id="menu_hide">
+                        <div class="left_column">
+                            <div class="mobile_profile">
+                                <div class="mobile_img">
+                                    <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                </div>
+                                <div class="pt-5 mobile_name">
+                                    <h1 class="title has-text-weight-bold p-24">
+                                        DEREK BURNETT
+                                    </h1>
+                                    <h6 class="subtitle has-text-weight-normal p-24" style="color: #808080;">
+                                        Boxing Coach
+                                    </h6>
+                                    <p class="p-16 has-text-weight-medium" style="margin-top: -20px;">
+                                        Member since May 2022
+                                    </p>
+                                    <p class="control has-text-white pt-2 has-icons-left has-icons-right is-hidden-mobile"
+                                        style="font-size: 1rem;">
+                                        <button class="button page-2_btn follow_btn strva_btn">
+                                            <span class="icon is-small is-left">
+                                                <img src="bulma/images/_x33_23-strava.svg" />
+                                            </span>
+                                            <span class="icon is-small is-right">
+                                                <img src="bulma/images/Strava_Logo.svg" />
+                                            </span>
+                                            <span style="margin-left: -32px; color: #fff;">FOLLOW ON</span>
+                                        </button>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="aside_menu pt-6">
+                                <aside class="menu side_menu">
+                                    <ul class="menu-list p-22 has-text-weight-bold">
+                                        <li><a href="screen5.html">ABOUT</a></li>
+                                        <li><a href="screen12.html">ACTIVE LISTINGS</a></li>
+                                        <li><a class="is-active" id="about_link"
+                                                style="background-color: #F7F7F7;">MESSAGES</a></li>
+                                        <li><a href="screen13.html">CALENDAR</a></li>
+                                        <li><a href="screen14.html">SESSIONS</a></li>
+                                        <li><a href="screen16.html">EARNINGS</a></li>
+                                        <li><a>SETTINGS</a></li>
+                                    </ul>
+                                </aside>
+                            </div>
+                            <div class="logout_btn pt-5">
+                                <a class="button">LOGOUT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-9">
+                        <div class="right_column" id="profile_hide">
+                            <h5 class="title p-34" id="title_hide" style="color: #303841;">
+                                Messages
+                            </h5>
+                            <div class=" columns is-12">
+                                <div class="column is-two-fifths pt-5" id="msg_list_box">
+                                    <p class="p-14" style="margin-top: -15px; color: #808080;">
+                                        ALL CONVERSATIONS
+                                    </p>
+                                    <div class="msg_list_box pt-4">
+                                        <div class="box list_box">
+                                            <article class="media">
+                                                <div class="media-left">
+                                                    <figure class="image is-48x48">
+                                                        <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                                    </figure>
+                                                </div>
+                                                <div class="media-content">
+                                                    <div class="content pt-1">
+                                                        <p>
+                                                            <strong class="p-16 has-text-weight-semibold">Benedita Tavares</strong>
+                                                        </p>
+                                                        <p style="margin-top: -15px;">
+                                                            <small class="p-14" style="color: #84818A; ">From ads that dance or sing...</small>
+                                                        </p>
+                                                    </div>
+                                                    <div class="content pt-1 list_right">
+                                                        <p>
+                                                            <small style="color: #84818A; font-size: 10px;">2m ago </small>
+                                                        </p>
+                                                        <p class="center" style="margin-top: -12px;">
+                                                            <small class="p-14" style="color: #fff; font-size: 12px;">3 </small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="box list_box">
+                                            <article class="media">
+                                                <div class="media-left">
+                                                    <figure class="image is-48x48">
+                                                        <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                                    </figure>
+                                                </div>
+                                                <div class="media-content">
+                                                    <div class="content pt-1">
+                                                        <p>
+                                                            <strong class="p-16 has-text-weight-semibold">Dylan Sandoval</strong>
+                                                        </p>
+                                                        <p style="margin-top: -15px;">
+                                                            <small class="p-14" style="color: #84818A; ">From ads that dance or sing...</small>
+                                                        </p>
+                                                    </div>
+                                                    <div class="content pt-1 list_right">
+                                                        <p>
+                                                            <small style="color: #84818A; font-size: 10px;">2m ago </small>
+                                                        </p>
+                                                        <p class="" style="margin-top: -12px;">
+                                                            <small class="p-14" style="color: #84818A; font-size: 12px;"><i class="fas fa-check-double"></i></small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="box list_box msg_active1" id="msg_active_list" style="background-color: #F7F7F7;">
+                                            <article class="media ">
+                                                <div class="media-left">
+                                                    <figure class="image is-48x48">
+                                                        <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                                    </figure>
+                                                </div>
+                                                <div class="media-content">
+                                                    <div class="content pt-1">
+                                                        <p>
+                                                            <strong class="p-16 has-text-weight-semibold">Riley Cooper</strong>
+                                                        </p>
+                                                        <p style="margin-top: -15px;">
+                                                            <small class="p-14" style="color: #84818A; ">Sure! let me tell you about…</small>
+                                                        </p>
+                                                    </div>
+                                                    <div class="content pt-1 list_right">
+                                                        <p>
+                                                            <small style="color: #84818A; font-size: 10px;">2m ago </small>
+                                                        </p>
+                                                        <p class="" style="margin-top: -12px;">
+                                                            <small class="p-14" style="color: #84818A; font-size: 12px;"><i class="fas fa-check-double"></i></small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="box list_box">
+                                            <article class="media">
+                                                <div class="media-left">
+                                                    <figure class="image is-48x48">
+                                                        <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                                    </figure>
+                                                </div>
+                                                <div class="media-content">
+                                                    <div class="content pt-1">
+                                                        <p>
+                                                            <strong class="p-16 has-text-weight-semibold">Benedita Tavares</strong>
+                                                        </p>
+                                                        <p style="margin-top: -15px;">
+                                                            <small class="p-14" style="color: #84818A; ">From ads that dance or sing...</small>
+                                                        </p>
+                                                    </div>
+                                                    <div class="content pt-1 list_right">
+                                                        <p>
+                                                            <small style="color: #84818A; font-size: 10px;">2m ago </small>
+                                                        </p>
+                                                        <p class="center" style="margin-top: -12px;">
+                                                            <small class="p-14" style="color: #fff; font-size: 12px;">3 </small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="box list_box">
+                                            <article class="media">
+                                                <div class="media-left">
+                                                    <figure class="image is-48x48">
+                                                        <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                                    </figure>
+                                                </div>
+                                                <div class="media-content">
+                                                    <div class="content pt-1">
+                                                        <p>
+                                                            <strong class="p-16 has-text-weight-semibold">Quinten Kortum</strong>
+                                                        </p>
+                                                        <p style="margin-top: -15px;">
+                                                            <small class="p-14" style="color: #84818A; ">Sure. Taking a screenshot …</small>
+                                                        </p>
+                                                    </div>
+                                                    <div class="content pt-1 list_right">
+                                                        <p>
+                                                            <small style="color: #84818A; font-size: 10px;">2m ago </small>
+                                                        </p>
+                                                        <p class="" style="margin-top: -12px;">
+                                                            <small class="p-14" style="color: #84818A; font-size: 12px;"><i class="fas fa-check-double"></i></small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="box list_box">
+                                            <article class="media">
+                                                <div class="media-left">
+                                                    <figure class="image is-48x48">
+                                                        <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                                    </figure>
+                                                </div>
+                                                <div class="media-content">
+                                                    <div class="content pt-1">
+                                                        <p>
+                                                            <strong class="p-16 has-text-weight-semibold">Clarke Gillebert</strong>
+                                                        </p>
+                                                        <p style="margin-top: -15px;">
+                                                            <small class="p-14" style="color: #84818A; ">Sure! let me tell you about wh…</small>
+                                                        </p>
+                                                    </div>
+                                                    <div class="content pt-1 list_right">
+                                                        <p>
+                                                            <small style="color: #84818A; font-size: 10px;">2m ago </small>
+                                                        </p>
+                                                        <p class="" style="margin-top: -12px;">
+                                                            <small class="p-14" style="color: #84818A; font-size: 12px;"><i class="fa fa-check-double"></i></small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="box list_box">
+                                            <article class="media">
+                                                <div class="media-left">
+                                                    <figure class="image is-48x48">
+                                                        <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                                    </figure>
+                                                </div>
+                                                <div class="media-content">
+                                                    <div class="content pt-1">
+                                                        <p>
+                                                            <strong class="p-16 has-text-weight-semibold">Fua Lamba</strong>
+                                                        </p>
+                                                        <p style="margin-top: -15px;">
+                                                            <small class="p-14" style="color: #84818A; ">From ads that dance or sing...</small>
+                                                        </p>
+                                                    </div>
+                                                    <div class="content pt-1 list_right">
+                                                        <p>
+                                                            <small style="color: #84818A; font-size: 10px;">2m ago </small>
+                                                        </p>
+                                                        <p class="" style="margin-top: -12px;">
+                                                            <small class="p-14" style="color: #84818A; font-size: 12px;"><i class="fa fa-check-double"></i></small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column main_column" id="msg_detail_id"> 
+                                    <div class="box msg_title">
+                                        <article class="media">
+                                            <div class="media-left pt-1">
+                                                <figure class="image is-32x32">
+                                                    <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content pt-2">
+                                                    <p class="mobile_p">
+                                                        <strong class="p-16 has-text-weight-semibold">Riley Cooper,</strong> <small class="p-14" style="color: #84818A;">Yogyakarta ID</small>
+                                                    </p>
+                                                </div>
+                                                <div class="content pt-1 header_location is-hidden-mobile is-hidden-tablet">
+                                                    <p>
+                                                        <small class="p-14" style="color: #84818A;">Location: </small><strong class="p-16 has-text-weight-semibold">Singapore</strong>
+                                                    </p>
+                                                    <p style="margin-top: -12px;">
+                                                        <small class="p-14" style="color: #84818A;">Language: </small><strong class="p-16 has-text-weight-semibold">English, German</strong>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="box msg_details">
+                                        <article class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-32x32">
+                                                    <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content pt-1">
+                                                    <p>
+                                                     <small class="p-14 msg_box" style="color: #303841; background-color: #fff;">Hello! I think I found a bug!</small>
+                                                    </p>
+                                                    <p>
+                                                        <small style="color: #84818A; font-size: 12px;">Today 11:52</small>
+                                                    </p>
+                                                </div>
+                                                <div class="content has-text-right pt-2">
+                                                    <div class="box message_active">
+                                                        <p class="text_justify">
+                                                        <small class="p-14" style="color: #303841;">Hello! I’m sorry to hear this. Could you show me a screenshot about what happened?</small>
+                                                        </p>
+                                                    </div>
+                                                    <p>
+                                                        <small style="color: #84818A; font-size: 12px;">Today 11:52</small>
+                                                    </p>
+                                                   
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <article class="media pb-6">
+                                            <div class="media-left">
+                                                <figure class="image is-32x32">
+                                                    <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content pt-1">
+                                                    <p>
+                                                     <small class="p-14 msg_box" style="color: #303841; background-color: #fff;">Sure. Taking a screenshot right now.</small>
+                                                    </p>
+                                                    <p>
+                                                        <small style="color: #84818A; font-size: 12px;">Today 11:52</small>
+                                                    </p>
+                                                </div>
+                                                <div class="content has-text-right pt-2">
+                                                    <div class="box message_active">
+                                                        <p class="text_justify">
+                                                        <small class="p-14" style="color: #303841; background-color: #DEE7F0;">Thanks you! I’m reporting this internally</small>
+                                                        </p>
+                                                    </div>
+                                                <div class="box message_active">
+                                                    <p class="text_justify">
+                                                        <small class="p-14" style="color: #303841; background-color: #DEE7F0;">Hey Bryan, it’s Maxbert from Cobe. Following back on what we said earlier, we have made some improvements so please update your application to fix the problem. Thanks</small>
+                                                    </p>
+                                                </div>
+                                                    <p>
+                                                        <small style="color: #84818A; font-size: 12px; float: right;">Today 11:52</small>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <div class="msg_input">
+                                            <div class="media-left">
+                                                <div class="field" style="margin-left: -45px;">
+                                                    <p class="control has-icons-left has-icons-right is-normal">
+                                                    <input class="input" type="email" placeholder="Send your message…">
+                                                    <span class="icon is-small is-left">
+                                                        <i class="fa-solid fa-face-smile" style="margin-right: 45px;"></i>
+                                                    </span>
+                                                    <span class="icon is-small is-right">
+                                                        <i class="fa-solid fa-plus" style="margin-right: 10px;"></i>
+                                                        <button class="button send_button is-small">
+                                                            <span id="send_btn" style="font-size: 14px; margin-right: 20px;">SEND</span>
+                                                            <span class="icon is-small">
+                                                                <i class="fa-solid fa-paper-plane"></i>
+                                                            </span>
+                                                        </button>
+                                                    </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer id="footer_hide">
+        <div class="main_foot">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-one-fifth">
+                        <a class="foot-logo-text" href="index.html">SPORTA</a>
+                    </div>
+                    <div class="column is-three-fifth">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="last_foot">
+                                    <a href="privacy-policy.html"><span class="p-16">Privacy Policy</span></a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="last_foot">
+                                    <a href="privacy-policy.html"><span class="p-16">Terms & Conditions</span></a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="last_foot">
+                                    <a href="faq.html"><span class="p-16">FAQs</span></a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="last_foot">
+                                    <a href="privacy-policy.html"><span class="p-16">Cookie Settings</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-one-fifth has-text-right pr-0">
+                        <i class="fa-brands fa-facebook-f px-2"></i>
+                        <i class="fa-brands fa-instagram px-2"></i>
+                        <i class="fa-brands fa-twitter px-2"></i>
+                        <i class="fa-brands fa-youtube px-2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var maxField = 10; //Input fields increment limitation
+            var addButton = $('.add_button'); //Add button selector
+            var wrapper = $('.add_field'); //Input field wrapper
+            var fieldHTML = '<div><div class="columns is-12"><div class="column is-4" ><div class="field"><label class="label p-16 is-hidden-desktop" style="color: #808080;">Days</label><div class="control"><div class="select is-fullwidth"><select><option>Monday</option></select></div></div> </div></div><div class="column is-4 is-6-mobile"><div class="field"><label class="label p-16 is-hidden-desktop" style="color: #808080;">Start Time</label><div class="control"><div class="select is-fullwidth"><select><option>5:30am</option></select></div></div></div></div><div class="column is-4 is-6-mobile"><div class="field"><label class="label p-16 is-hidden-desktop" style="color: #808080;">End Time</label><div class="control"><div class="select is-fullwidth"><select><option>8:00pm</option> </select></div></div></div></div></div></div>'; //New input field html 
+            var x = 1; //Initial field counter is 1
+
+            //Once add button is clicked
+            $(addButton).click(function () {
+                //Check maximum number of input fields
+                if (x < maxField) {
+                    x++; //Increment field counter
+                    $(wrapper).append(fieldHTML); //Add field html
+                }
+            });
+
+            //Once remove button is clicked
+            // $(wrapper).on('click', '.remove_button', function(e){
+            //     e.preventDefault();
+            //     $(this).parent('div').remove(); //Remove field html
+            //     x--; //Decrement field counter
+            // });
+        });
+        $(document).on('click', '.msg_active', function () {
+            $("#msg_detail_id").show();
+            $("#msg_list_box").hide(); 
+            $("#title_hide").hide(); 
+            $("#send_btn").hide(); 
+            $("#mobile_side_menu").hide();
+            $("#mobile_message_menu").show();
+            $(".main_msg_body").removeClass("pt-4");
+        });
+        $(document).on('click', '.msg_arrow', function () {
+            $("#msg_detail_id").hide();
+            $("#msg_list_box").show(); 
+            $("#mobile_side_menu").show();
+            $("#mobile_message_menu").hide();
+        });
+        $(document).on('click', '.arrow', function () {
+            $("#menu_hide").show();
+            $("#profile_hide").hide();
+            $("#desktop_menu").show();
+            $("#mobile_side_menu").hide();
+            $("#menu_hide").show();
+        });
+        $(document).on('click', '.handle_onclick', function () {
+            $("#profile_hide").removeClass("is-hidden-mobile")
+            $("#mobile_side_menu").show();
+            $("#desktop_menu").hide();
+            $("#menu_hide").hide();
+            $("#profile_hide").toggle();
+        });
+        $(document).ready(function () {
+            // $(window).on("resize", function (e) {
+            //     checkScreenSize();
+            // });
+
+            checkScreenSize();
+
+            function checkScreenSize() {
+                var newWindowWidth = $(window).width();
+                if (newWindowWidth < 770) {
+                    $("#profile_hide").hide();
+                    $("#msg_detail_id").hide();
+                    $("#mobile_side_menu").show();
+                    $(".is-active").addClass("handle_onclick");
+                    $("#mobile_message_menu").hide();
+                    $("#menu_hide").hide();
+                    $("#desktop_menu").hide();
+                    $("#profile_hide").toggle();
+                    $("#msg_active_list").addClass("msg_active");
+                }
+                else {
+                    $(".is-active").removeClass("handle_onclick");
+                    $("#msg_active_list").removeClass("msg_active");
+                    $("#profile_hide").show();
+                    $("#menu_hide").show();
+                    $("#desktop_menu").show();
+                    $("#mobile_side_menu").show();
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>

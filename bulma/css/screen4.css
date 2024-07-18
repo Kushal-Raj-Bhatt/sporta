@@ -1,0 +1,330 @@
+.button-gray {
+    background-color: gray;
+    border-color: #303841;
+    border-width: 1px;
+    width: 22rem;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(0.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 0px;
+}
+
+.button-outline { 
+    border-color: #303841;
+    border-width: 1px; 
+    width: 10rem;
+    color: #303841;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(0.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 0px;
+}
+.button-gray.is-hovered, .button-gray:hover {
+    border-color: #b5b5b5;
+    color: #fff;
+}
+.input {
+    box-shadow: inset 0 0.0625em 0.125em rgb(10 10 10 / 5%);
+    max-width: 100%;
+    width: 80%;
+}
+.p_fixed{
+    word-spacing: 1px;
+}
+.input::placeholder{
+    color: black;
+    font-weight: 500;
+}
+.datetimepicker-dummy .datetimepicker-dummy-wrapper .datetimepicker-dummy-input {
+    max-width: 100% !important;
+}
+.datetimepicker-dummy .datetimepicker-dummy-wrapper input {
+    
+    word-spacing: 0rem !important; 
+}
+@media only screen and (max-width: 991px) {
+    .p-33{
+        font-size: 1.75rem;
+    }
+    .p-16{
+        font-size: 0.875rem;
+    } 
+    .p-20{
+        font-size: 1.25;
+    }
+    .p_fixed{
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+    .button-gray {
+        background-color: #303841;
+        border-color: #303841;
+        border-width: 1px;
+        width: 28rem;
+        color: #fff;
+        cursor: pointer;
+        justify-content: center;
+        padding-bottom: calc(0.5em - 1px);
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: calc(0.5em - 1px);
+        text-align: center;
+        white-space: nowrap;
+        border-radius: 0px;
+        margin-right: -4px;
+    }
+    .button-outline { 
+        border-color: #303841;
+        border-width: 1px; 
+        width: 13rem;
+        color: #303841;
+        cursor: pointer;
+        justify-content: center;
+        padding-bottom: calc(0.5em - 1px);
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: calc(0.5em - 1px);
+        text-align: center;
+        white-space: nowrap;
+        border-radius: 0px;
+    }
+    .input {
+        box-shadow: inset 0 0.0625em 0.125em rgb(10 10 10 / 5%);
+        max-width: 100%;
+        width: 100%;
+    }
+    .rv_mobile_pic{
+        width: 80px !important;
+        height: 134px !important;
+        border-radius: 100%;
+    }
+    .bulma_cobe_calendar .datetimepicker-dummy {
+        position: relative;
+        display: flex;
+        width: 100% !important;
+        height: 2.5rem;
+        max-width: 100%;
+    }
+    .field.is-grouped {
+        display: flex;
+        justify-content: space-between;
+    }
+    .bulma_cobe_calendar .datepicker.is-active {
+        border: 1px solid #dddddd;
+        margin: 10px 2rem 0px 2rem !important;
+    }
+}
+
+
+.bulma_cobe_calendar .datetimepicker-dummy {
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 2.5rem;
+    max-width: 100%;
+}
+.bulma_cobe_calendar button.datetimepicker-clear-button{
+    display: none;
+}
+.bulma_cobe_calendar .datetimepicker-dummy .datetimepicker-dummy-wrapper {
+    border: 1px solid #DDDDDD;
+    box-shadow: inset 0 0.0625em 0.125em rgb(10 10 10 / 5%);
+}
+.bulma_cobe_calendar .datetimepicker-dummy::before, .datetimepicker-dummy:before {
+    content: '';
+    -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNjAgNjAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGZpbGw9ImN1cnJlbnRjb2xvciIgZD0iTTU3LDRoLTdWMWMwLTAuNTUzLTAuNDQ3LTEtMS0xaC03Yy0wLjU1MywwLTEsMC40NDctMSwxdjNIMTlWMWMwLTAuNTUzLTAuNDQ3LTEtMS0xaC03Yy0wLjU1MywwLTEsMC40NDctMSwxdjNIM0MyLjQ0Nyw0LDIsNC40NDcsMiw1djExdjQzYzAsMC41NTMsMC40NDcsMSwxLDFoNTRjMC41NTMsMCwxLTAuNDQ3LDEtMVYxNlY1QzU4LDQuNDQ3LDU3LjU1Myw0LDU3LDR6IE00MywyaDV2M3YzaC01VjVWMnogTTEyLDJoNXYzdjNoLTVWNVYyeiBNNCw2aDZ2M2MwLDAuNTUzLDAuNDQ3LDEsMSwxaDdjMC41NTMsMCwxLTAuNDQ3LDEtMVY2aDIydjNjMCwwLjU1MywwLjQ0NywxLDEsMWg3YzAuNTUzLDAsMS0wLjQ0NywxLTFWNmg2djlINFY2ek00LDU4VjE3aDUydjQxSDR6Ii8+PHBhdGggZmlsbD0iY3VycmVudGNvbG9yIiBkPSJNMzgsMjNoLTdoLTJoLTdoLTJoLTl2OXYydjd2MnY5aDloMmg3aDJoN2gyaDl2LTl2LTJ2LTd2LTJ2LTloLTlIMzh6TTMxLDI1aDd2N2gtN1YyNXpNMzgsNDFoLTd2LTdoN1Y0MXpNMjIsMzRoN3Y3aC03VjM0ek0yMiwyNWg3djdoLTdWMjV6TTEzLDI1aDd2N2gtN1YyNXpNMTMsMzRoN3Y3aC03VjM0ek0yMCw1MGgtN3YtN2g3VjUwek0yOSw1MGgtN3YtN2g3VjUweiBNMzgsNTBoLTd2LTdoN1Y1MHogTTQ3LDUwaC03di03aDdWNTB6IE00Nyw0MWgtN3YtN2g3VjQxek00NywyNXY3aC03di03SDQ3eiIvPjwvZz48L3N2Zz4=);
+    mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNjAgNjAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGZpbGw9ImN1cnJlbnRjb2xvciIgZD0iTTU3LDRoLTdWMWMwLTAuNTUzLTAuNDQ3LTEtMS0xaC03Yy0wLjU1MywwLTEsMC40NDctMSwxdjNIMTlWMWMwLTAuNTUzLTAuNDQ3LTEtMS0xaC03Yy0wLjU1MywwLTEsMC40NDctMSwxdjNIM0MyLjQ0Nyw0LDIsNC40NDcsMiw1djExdjQzYzAsMC41NTMsMC40NDcsMSwxLDFoNTRjMC41NTMsMCwxLTAuNDQ3LDEtMVYxNlY1QzU4LDQuNDQ3LDU3LjU1Myw0LDU3LDR6IE00MywyaDV2M3YzaC01VjVWMnogTTEyLDJoNXYzdjNoLTVWNVYyeiBNNCw2aDZ2M2MwLDAuNTUzLDAuNDQ3LDEsMSwxaDdjMC41NTMsMCwxLTAuNDQ3LDEtMVY2aDIydjNjMCwwLjU1MywwLjQ0NywxLDEsMWg3YzAuNTUzLDAsMS0wLjQ0NywxLTFWNmg2djlINFY2ek00LDU4VjE3aDUydjQxSDR6Ii8+PHBhdGggZmlsbD0iY3VycmVudGNvbG9yIiBkPSJNMzgsMjNoLTdoLTJoLTdoLTJoLTl2OXYydjd2MnY5aDloMmg3aDJoN2gyaDl2LTl2LTJ2LTd2LTJ2LTloLTlIMzh6TTMxLDI1aDd2N2gtN1YyNXpNMzgsNDFoLTd2LTdoN1Y0MXpNMjIsMzRoN3Y3aC03VjM0ek0yMiwyNWg3djdoLTdWMjV6TTEzLDI1aDd2N2gtN1YyNXpNMTMsMzRoN3Y3aC03VjM0ek0yMCw1MGgtN3YtN2g3VjUwek0yOSw1MGgtN3YtN2g3VjUweiBNMzgsNTBoLTd2LTdoN1Y1MHogTTQ3LDUwaC03di03aDdWNTB6IE00Nyw0MWgtN3YtN2g3VjQxek00NywyNXY3aC03di03SDQ3eiIvPjwvZz48L3N2Zz4=);
+    position: absolute;
+    top: 0.65rem;
+    left: 0.75rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: #303841 !important;
+}
+.bulma_cobe_calendar .datetimepicker-wrapper.modal.is-active{
+    z-index: 99999;
+}
+.bulma_cobe_calendar .datetimepicker.is-primary .datepicker-nav {
+    background: #F7F7F7 !important;
+    color: #303841 !important;
+}
+.bulma_cobe_calendar .datetimepicker .datepicker-nav .datepicker-nav-month, .datetimepicker .datepicker-nav .datepicker-nav-year {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #303841 !important;
+}
+.bulma_cobe_calendar .datetimepicker.is-primary .datepicker-body .datepicker-dates .datepicker-days .datepicker-date .date-item:hover {
+    border-color: #5ab2ff !important;
+}
+.bulma_cobe_calendar .datetimepicker.is-primary .datepicker-body .datepicker-dates .datepicker-days .datepicker-date .date-item.is-today {
+    border-color: #303841 !important;
+    /* color: #fff !important; */
+    border-radius: 0px;
+    /* background: #303841; */
+}
+
+.bulma_cobe_calendar .datetimepicker.is-primary .datepicker-body .datepicker-dates .datepicker-days .datepicker-date .date-item.is-active {
+    background: #303841 !important;
+    color: #fff !important;
+    border-radius: 0px;
+}
+.bulma_cobe_calendar .datetimepicker.is-primary .datetimepicker-header .datetimepicker-selection-day {
+    color: #5ab2ff !important;
+}
+.bulma_cobe_calendar .datetimepicker .timepicker .timepicker-end .timepicker-hours .timepicker-input, .datetimepicker .timepicker .timepicker-end .timepicker-minutes .timepicker-input, .datetimepicker .timepicker .timepicker-start .timepicker-hours .timepicker-input, .datetimepicker .timepicker .timepicker-start .timepicker-minutes .timepicker-input{
+    color: #5ab2ff !important;
+}
+.bulma_cobe_calendar .datetimepicker .timepicker .timepicker-time-divider{
+    color: #5ab2ff !important;
+}
+.bulma_cobe_calendar .datetimepicker .datepicker-nav .datepicker-nav-next:hover, .datetimepicker .datepicker-nav .datepicker-nav-previous:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.bulma_cobe_calendar .button.is-text:focus {
+    background-color: #dddddd;
+    color: #363636;
+}
+.bulma_cobe_calendar .modal .datetimepicker {
+    display: block;
+    max-height: 95vh;
+    width: 35rem;
+    max-width: 95vw;
+    overflow-y: auto;
+}
+.bulma_cobe_calendar .datetimepicker .datepicker-nav .datepicker-nav-next, .datetimepicker .datepicker-nav .datepicker-nav-previous {
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-decoration: none;
+    color: #fff;
+    background: #84818A;
+}
+.bulma_cobe_calendar .datetimepicker .datepicker-body .datepicker-weekdays {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0.3rem 0;
+    background: 0 0;
+    color: #fff;
+    font-size: .75rem;
+    background: #f7f7f7;
+    margin-bottom: 1rem;
+}
+.bulma_cobe_calendar .datepicker.is-active {
+    border: 1px solid #dddddd;
+    margin: 10px 5rem 0px 5rem;
+}
+.bulma_cobe_calendar .datetimepicker .datetimepicker-footer {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0.5rem 0;
+    background-color: #f7f7f7;
+}
+.bulma_cobe_calendar .datetimepicker .datepicker-nav .datepicker-nav-next:hover, .datetimepicker .datepicker-nav .datepicker-nav-previous:hover {
+    background-color: #84818a;
+}
+.bulma_cobe_calendar .button.is-small {
+    font-size: 14px;
+}
+.bulma_cobe_calendar .has-text-warning {
+    color: #fff!important;
+    background-color: #48c78e;
+}
+.bulma_cobe_calendar .has-text-success {
+    color: #fff!important;
+    background-color:#5ab2ff;
+}
+.bulma_cobe_calendar .has-text-warning:hover {
+    color: #fff!important;
+    background-color: #48c78e;
+}
+.bulma_cobe_calendar .has-text-success:hover {
+    color: #fff!important;
+    background-color:#5ab2ff;
+}
+.bulma_cobe_calendar button.datetimepicker-footer-cancel.button.is-small.is-text{
+    background-color: #84818a;
+    color: #fff;
+}
+@media only screen and (max-width: 450px) {
+    .button-gray {
+        background-color: #303841;
+        border-color: #303841;
+        border-width: 1px;
+        width: 12rem;
+        color: #fff;
+        cursor: pointer;
+        justify-content: center;
+        padding-bottom: calc(0.5em - 1px);
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: calc(0.5em - 1px);
+        text-align: center;
+        white-space: nowrap;
+        border-radius: 0px;
+        margin-right: -4px;
+    }
+    .button-outline { 
+        border-color: #303841;
+        border-width: 1px; 
+        width: 6rem;
+        color: #303841;
+        cursor: pointer;
+        justify-content: center;
+        padding-bottom: calc(0.5em - 1px);
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: calc(0.5em - 1px);
+        text-align: center;
+        white-space: nowrap;
+        border-radius: 0px;
+    }
+}
+@media only screen and (width: 650px) {
+    .button-gray {
+        background-color: #303841;
+        border-color: #303841;
+        border-width: 1px;
+        width: 24rem;
+        color: #fff;
+        cursor: pointer;
+        justify-content: center;
+        padding-bottom: calc(0.5em - 1px);
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: calc(0.5em - 1px);
+        text-align: center;
+        white-space: nowrap;
+        border-radius: 0px;
+        margin-right: -4px;
+    }
+    .button-outline { 
+        border-color: #303841;
+        border-width: 1px; 
+        width: 11rem;
+        color: #303841;
+        cursor: pointer;
+        justify-content: center;
+        padding-bottom: calc(0.5em - 1px);
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: calc(0.5em - 1px);
+        text-align: center;
+        white-space: nowrap;
+        border-radius: 0px;
+    }
+}

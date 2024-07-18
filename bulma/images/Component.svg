@@ -1,0 +1,20 @@
+<svg id="Component_61_1" data-name="Component 61 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="160" viewBox="0 0 1440 160">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_125" data-name="Rectangle 125" width="1440" height="160" transform="translate(200 284)" fill="#f9fafb"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_119" data-name="Rectangle 119" width="1440" height="160" fill="#f9fafb"/>
+  <g id="Mask_Group_29" data-name="Mask Group 29" transform="translate(-200 -284)" clip-path="url(#clip-path)">
+    <g id="Group_4886" data-name="Group 4886">
+      <g id="Group_4889" data-name="Group 4889">
+        <circle id="Ellipse_223" data-name="Ellipse 223" cx="380" cy="380" r="380" transform="translate(168 286)" fill="none" stroke="#f4f4f6" stroke-width="4"/>
+        <circle id="Ellipse_224" data-name="Ellipse 224" cx="411" cy="411" r="411" transform="translate(168 224)" fill="none" stroke="#f4f4f6" stroke-width="4"/>
+        <path id="Path_550" data-name="Path 550" d="M831,676c0,182.251-147.967,330-330.5,330S170,858.251,170,676,317.967,346,500.5,346,831,493.749,831,676Z" fill="none" stroke="#f4f4f6" stroke-width="4"/>
+        <path id="Path_551" data-name="Path 551" d="M731,686c0,154.636-125.581,280-280.5,280S170,840.636,170,686,295.581,406,450.5,406,731,531.364,731,686Z" fill="none" stroke="#f4f4f6" stroke-width="4"/>
+      </g>
+      <path id="Path_555" data-name="Path 555" d="M1341,308l108,55.856V522l-108-54.433Z" fill="#f4f4f6"/>
+      <path id="Path_556" data-name="Path 556" d="M1449,255l70,36.231V399l-70-35.308Z" fill="#f4f4f6"/>
+    </g>
+  </g>
+</svg>

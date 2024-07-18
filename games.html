@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cobe</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/be0be6d488.js" crossorigin="anonymous"></script> 
+  <link rel="stylesheet" type="text/css" href="bulma/css/style.css">
+  <link rel="stylesheet" type="text/css" href="bulma/css/screen3.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="my_header">
+      <div class="container">
+        <nav class="navbar has-background-grey-dark" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item mob_center" href="index.html">SPORTA</a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+              data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+            <div class="user_log is-hidden-desktop">
+              <div class="pic_user">
+               <img src="bulma/images/boxing.jpg" alt="">
+              </div>
+              </div>
+          </div>
+
+          <div id="navbarBasicExample" class="navbar-menu ">
+            <div class="navbar-end">
+              <a class="navbar-item has-text-grey-light" href="index.html">
+                Home
+              </a>
+
+              <a class="navbar-item has-text-grey-light active" href="games.html">
+                Games 
+              </a>
+              <a class="navbar-item has-text-grey-light" href="coach.html">
+                Our Coaches
+              </a>
+              <a class="navbar-item has-text-grey-light" href="dashboard.html">
+               Your Dashboard
+              </a>
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button is-white" href="sign-up.html">
+                    <span class="text-color has-text-weight-semibold">SIGN UP</span>
+                  </a>
+                  <a class="button has-text-white has-text-weight-semibold text-background" href="login.html">
+                    LOGIN
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <section class="hero is-black">
+    <div class="hero-body home-banner-cobe2 is-hidden-mobile"
+      style="background: url(bulma/images/Rectangle\ 6.7.png); height: 492px;">
+      <div class="container">
+        <p class="title p-75 title-pad">
+          RUNNING
+        </p>
+      </div>
+    </div>
+    <div class="hero-body home-banner-cobe2 is-hidden-desktop is-hidden-tablet"
+      style="background: url(bulma/images/Rectangle\ 6.8.png);" >
+      <div class="container">
+        <p class="title p-70 title-pad">
+         <span class="title-pos"> RUNNING </span>
+        </p>
+    </div>
+  </div>
+  </section> 
+  <section class="hero is-white">
+    <div class="hero-body">
+      <div class="container"> 
+        <div class="columns is-12 pt-6 pb-6">
+          <div class="column is-3">
+             <div class="container is-hidden-mobile">
+                <div class="field">
+                <h5 class="title p-32 has-text-weight-semibold">
+                  FILTER
+                </h5>
+                  <p class="control has-icons-right">
+                      <input class="input" type="text" placeholder="Search...">
+                      <span class="icon is-small is-right" style="color: #9EA3AE;">
+                        <i class="fa fa-search"></i>
+                      </span> 
+                    </p>
+                </div>
+                <hr/>
+                <div>  
+                    <h5 class="subtitle p-20 has-text-weight-semibold">Price Range</h5> 
+                    <span class="icon-align pt-1">
+                      <i class="fa fa-angle-down color-gray" id="price-hide"></i>
+                    </span> 
+                  <div id="price-demo">
+                    <div class="field">
+                    <p class="control has-icons-right">
+                      <input class="input" type="text" placeholder="Min"> 
+                      <span class="icon is-small is-right" style="color: #9EA3AE;">
+                        <i class="fa fa-dollar"></i>
+                      </span>
+                    </p>
+                    </div>
+                    <div class="field">
+                    <p class="control has-icons-right">
+                      <input class="input" type="text" placeholder="Max">
+                      <span class="icon is-small is-right" style="color: #9EA3AE;">
+                        <i class="fa fa-dollar"></i>
+                      </span>
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <hr/>
+                <h5 class="subtitle p-20 has-text-weight-semibold">Session Time </h5> 
+                <!-- <span class="icon-align">
+                  <i class="fa fa-angle-down" id="session-hide"></i>
+                </span>  -->
+                <div id="session-demo">
+                  <div class="field">
+                    <p class="control p-16">
+                      <label class="checkbox">
+                        <input type="checkbox" class="mr-2">
+                        Up to 1 hour
+                      </label>
+                    </p>
+                  </div>
+                  <div class="field">
+                    <p class="control p-16">
+                      <label class="checkbox">
+                        <input type="checkbox" class="mr-2">
+                        Up to 2 hour
+                      </label>
+                    </p>
+                  </div>
+                  <div class="field">
+                    <p class="control p-16">
+                      <label class="checkbox">
+                        <input type="checkbox" class="mr-2">
+                        Up to 3 hour
+                      </label>
+                    </p>
+                  </div>
+                  <div class="field">
+                    <p class="control p-16">
+                      <label class="checkbox">
+                        <input type="checkbox" class="mr-2">
+                        Up to 4 hour
+                      </label>
+                    </p>
+                  </div>
+                  <div class="field">
+                    <p class="control p-16">
+                      <label class="checkbox">
+                        <input type="checkbox" class="mr-2">
+                        Any
+                      </label>
+                    </p>
+                  </div>
+                  <div class="content" >
+                    <div class="buttons">
+                        <a class="button is-fullwidth text-background p-18">
+                        APPLY
+                        </a>
+                    </div>
+                  </div>
+                  <div class="content" style="margin-top: -1.25rem;">
+                  <div class="buttons">
+                      <a class="button is-white is-fullwidth has-text-weight-bold p-18" style="border: 1px solid gray;">
+                      CLEAR ALL FILTER
+                      </a>
+                  </div>
+                  </div>
+                </div>
+             </div>
+             <div class="container pr-4 pl-4 is-hidden-desktop is is-hidden-tablet">
+                <div class="field" style="border: 1px solid gray;">
+                   <p class="subtitle p-22 has-text-weight-bold mt-5 ml-3">
+                    FILTER
+                   </p>
+                   <span class="icon-align mr-3">
+                   <i class="fa fa-caret-down" id="filter-div" aria-hidden="true"></i>
+                  </span> 
+                </div>
+                <div id="div-hide" class="pt-3">
+                  <div class="field">
+                  <h5 class="title p-20 has-text-weight-bold">
+                     Advanced Filters
+                  </h5>
+                  <span class="icon-align">
+                    <i class="fa fa-angle-down" id="filter-hide"></i>
+                  </span> 
+                  <hr/>
+                    <p class="control has-icons-right" id="filter-search">
+                        <input class="input" type="text" placeholder="Search...">
+                        <span class="icon is-small is-right">
+                          <i class="fa fa-search"></i>
+                        </span> 
+                      </p>
+                  </div>
+                  <hr/>
+                  <div>  
+                      <h5 class="title p-20 has-text-weight-semibold">Price Range</h5> 
+                      <span class="icon-align">
+                        <i class="fa fa-angle-down" id="mob-price-hide"></i>
+                      </span> 
+                    <div id="mob-price-demo">
+                      <div class="field">
+                      <p class="control has-icons-left has-icons-right">
+                        <input class="input" type="text" placeholder="Min"> 
+                        <span class="icon is-small is-right">
+                          <i class="fa fa-dollar"></i>
+                        </span>
+                      </p>
+                      </div>
+                      <div class="field">
+                      <p class="control has-icons-left has-icons-right">
+                        <input class="input" type="text" placeholder="Max">
+                        <span class="icon is-small is-right">
+                          <i class="fa fa-dollar"></i>
+                        </span>
+                      </p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr/>
+                  <h5 class="title p-20 has-text-weight-semibold">Session Time </h5> 
+                  <span class="icon-align">
+                    <i class="fa fa-angle-down" id="mob-session-hide"></i>
+                  </span> 
+                  <div id="mob-session-demo">
+                    <div class="field">
+                      <p class="control p-16">
+                        <label class="checkbox">
+                          <input type="checkbox" class="mr-2">
+                          Up to 1 hour
+                        </label>
+                      </p>
+                    </div>
+                    <div class="field">
+                      <p class="control p-16 has-text-weight-normal">
+                        <label class="checkbox">
+                          <input type="checkbox" class="mr-2">
+                            Up to 2 hour
+                        </label>
+                      </p>
+                    </div>
+                    <div class="field">
+                      <p class="control p-16">
+                        <label class="checkbox">
+                          <input type="checkbox" class="mr-2">
+                          Up to 3 hour
+                        </label>
+                      </p>
+                    </div>
+                    <div class="field">
+                      <p class="control p-16">
+                        <label class="checkbox">
+                          <input type="checkbox" class="mr-2">
+                          Up to 4 hour
+                        </label>
+                      </p>
+                    </div>
+                    <div class="field">
+                      <p class="control p-16">
+                        <label class="checkbox">
+                          <input type="checkbox" class="mr-2">
+                          Any
+                        </label>
+                      </p>
+                    </div>
+                    <div class="content">
+                      <div class="buttons">
+                          <h5 class="button is-fullwidth text-background has-text-white p-18">
+                          APPLY
+                          </h5>
+                      </div>
+                    </div>
+                    <div class="content">
+                    <div class="buttons">
+                        <h5 class="button is-white is-fullwidth has-text-weight-bold p-18" style="border: 1px solid gray;">
+                        CLEAR ALL FILTER
+                        </h5>
+                  </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+          </div>
+          <div class="column is-9 mt-6 mr-4 ml-4">
+            <div class="columns is-12">
+              <div class="column is-4">            
+                  <div class="media-content">
+                      <div class="content">
+                          <div class="card card-footer-border-top">
+                              <div class="card-image">
+                              <figure class="image is-4by3"> 
+                                  <img src="bulma/images/serv-4.png" alt="Placeholder image"> 
+                              </figure>
+                              </div>
+                              <div class="card-content">
+                              <div class="media"> 
+                                  <div class="media-content">
+                                  <h5 class="title p-24">Running Classes for Marathon</h5>
+                                  <h5 class="subtitle text-color p-24"> $20</h5>
+                                  </div>
+                              </div>
+                              <div class="content">
+                                  <div class="buttons book_btn">
+                                      <a class="button is-fullwidth p-16 has-text-weight-semibold">
+                                      BOOK NOW 
+                                      </a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="column is-4">            
+                  <div class="media-content">
+                  <div class="content">
+                      <div class="card card-footer-border-top">
+                          <div class="card-image">
+                              <figure class="image is-4by3"> 
+                              <img src="bulma/images/serv-1.png" alt="Placeholder image"> 
+                              </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media"> 
+                              <div class="media-content">
+                              <h5 class="title p-24">Running Classes for Marathon</h5>
+                              <h5 class="subtitle text-color p-24"> $20</h5>
+                              </div>
+                           </div>
+                      
+                           <div class="content">
+                              <div class="buttons book_btn">
+                                  <a class="button is-fullwidth p-16 has-text-weight-semibold">
+                                  BOOK NOW
+                                  </a>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="column is-4">            
+                  <div class="media-content">
+                  <div class="content">
+                      <div class="card card-footer-border-top">
+                          <div class="card-image">
+                              <figure class="image is-4by3"> 
+                              <img src="bulma/images/serv-3.png" alt="Placeholder image"> 
+                              </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media"> 
+                              <div class="media-content">
+                              <h5 class="title p-24">Running Classes for Marathon</h5>
+                              <h5 class="subtitle text-color p-24">$20</h5>
+                              </div>
+                          </div>
+                      
+                          <div class="content">
+                              <div class="buttons book_btn">
+                                  <a class="button is-fullwidth p-16 has-text-weight-semibold">
+                                  BOOK NOW
+                                  </a>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </div> 
+            </div>
+            <div class="columns is-12"> 
+              <div class="column is-4">            
+                  <div class="media-content">
+                      <div class="content">
+                          <div class="card card-footer-border-top">
+                              <div class="card-image">
+                              <figure class="image is-4by3"> 
+                                  <img src="bulma/images/serv-2.png" alt="Placeholder image"> 
+                              </figure>
+                              </div>
+                              <div class="card-content">
+                                <div class="media"> 
+                                  <div class="media-content">
+                                  <h5 class="title p-24">Running Classes for Marathon</h5>
+                                  <h5 class="subtitle text-color p-24"> $20</h5>
+                                  </div>
+                              </div>
+                          
+                              <div class="content">
+                                  <div class="buttons book_btn">
+                                      <a class="button is-fullwidth p-16 has-text-weight-semibold">
+                                      BOOK NOW
+                                      </a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="column is-4">            
+                  <div class="media-content">
+                  <div class="content">
+                      <div class="card card-footer-border-top">
+                          <div class="card-image">
+                              <figure class="image is-4by3"> 
+                              <img src="bulma/images/Rectangle 6.5.png" alt="Placeholder image"> 
+                              </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media"> 
+                              <div class="media-content">
+                              <h5 class="title p-24">Running Classes for Marathon</h5>
+                              <h5 class="subtitle text-color p-24"> $20</h5>
+                              </div>
+                            </div>
+                      
+                            <div class="content">
+                              <div class="buttons book_btn">
+                                  <a class="button is-fullwidth p-16 has-text-weight-semibold">
+                                  BOOK NOW
+                                  </a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="column is-4">            
+                  <div class="media-content">
+                  <div class="content">
+                      <div class="card card-footer-border-top">
+                          <div class="card-image">
+                              <figure class="image is-4by3"> 
+                              <img src="bulma/images/Rectangle 6.6.png" alt="Placeholder image"> 
+                              </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media"> 
+                              <div class="media-content">
+                              <h5 class="title p-24">Running Classes for Marathon</h5>
+                              <h5 class="subtitle text-color p-24">$20</h5>
+                              </div>
+                            </div>
+                      
+                            <div class="content">
+                              <div class="buttons book_btn">
+                                  <a class="button is-fullwidth p-16 has-text-weight-semibold">
+                                  BOOK NOW
+                                  </a>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </div>  
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="main_foot">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-one-fifth">
+            <a class="foot-logo-text" href="index.html">SPORTA</a>
+          </div>
+          <div class="column is-three-fifth">
+            <div class="columns">
+              <div class="column">
+                <div class="last_foot">
+                  <a href="privacy-policy.html"><span class="p-16">Privacy Policy</span></a>
+                </div>
+              </div>
+              <div class="column">
+                <div class="last_foot">
+                  <a href="privacy-policy.html"><span class="p-16">Terms & Conditions</span></a>
+                </div>
+              </div>
+              <div class="column">
+                <div class="last_foot">
+                  <a href="faq.html"><span class="p-16">FAQs</span></a>
+                </div>
+              </div>
+              <div class="column">
+                <div class="last_foot">
+                  <a href="privacy-policy.html"><span class="p-16">Cookie Settings</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-fifth has-text-right pr-0">
+            <i class="fa-brands fa-facebook-f px-2"></i>
+            <i class="fa-brands fa-instagram px-2"></i>
+            <i class="fa-brands fa-twitter px-2"></i>
+            <i class="fa-brands fa-youtube px-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+
+});
+$(document).ready(function(){
+  $("#price-hide").click(function(){
+    $("#price-demo").toggle();
+  });
+});
+$(document).ready(function(){
+  $("#session-hide").click(function(){
+    $("#session-demo").toggle();
+  });
+});
+$(document).ready(function(){
+  $("#mob-price-hide").click(function(){
+    $("#mob-price-demo").toggle();
+  });
+});
+$(document).ready(function(){
+  $("#mob-session-hide").click(function(){
+    $("#mob-session-demo").toggle();
+  });
+});
+$(document).ready(function(){
+  $("#filter-hide").click(function(){
+    $("#filter-search").toggle();
+  });
+});
+$(document).ready(function(){
+  $("#div-hide").hide();
+  $("#filter-div").click(function(){
+    $("#div-hide").toggle();
+  });
+});
+</script>
+  
+</body>
+
+</html>

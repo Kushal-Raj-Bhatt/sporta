@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cobe</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/be0be6d488.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="bulma/css/style.css">
+  <link rel="stylesheet" type="text/css" href="bulma/css/screen4.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link href="https://unpkg.com/bulma-calendar@6.0.7/dist/css/bulma-calendar.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/bulma-calendar@6.0.7/dist/js/bulma-calendar.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="my_header">
+      <div class="container">
+        <nav class="navbar has-background-grey-dark" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item mob_center" href="index.html">SPORTA</a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+              data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+            <div class="user_log is-hidden-desktop">
+              <div class="pic_user">
+               <img src="bulma/images/boxing.jpg" alt="">
+              </div>
+              </div>
+          </div>
+
+          <div id="navbarBasicExample" class="navbar-menu ">
+            <div class="navbar-end">
+              <a class="navbar-item has-text-grey-light" href="index.html">
+                Home
+              </a>
+
+              <a class="navbar-item has-text-grey-light" href="games.html">
+                Games 
+              </a>
+              <a class="navbar-item has-text-grey-light" href="coach.html">
+                Our Coaches
+              </a>
+              <a class="navbar-item has-text-grey-light" href="dashboard.html">
+               Your Dashboard
+              </a>
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button is-white" href="sign-up.html">
+                    <span class="text-color has-text-weight-semibold">SIGN UP</span>
+                  </a>
+                  <a class="button has-text-white has-text-weight-semibold text-background" href="login.html">
+                    LOGIN
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero is-white my_left my_right" style="margin-bottom: -30px;">
+    <div class="hero-body">
+      <div class="container">
+        <nav class="breadcrumb has-arrow-separator pt-4 pl-6 is-hidden-mobile" aria-label="breadcrumbs">
+          <ul>
+            <li><a href="#"><img src="bulma/images/arrow-left.png" class="pr-2" />
+                <spna style="color: #808080;">Back to Running</spna>
+              </a></li>
+          </ul>
+        </nav>
+        <nav class="breadcrumb has-arrow-separator pt-3 pb-4 is-hidden-desktop is-hidden-tablet"
+          aria-label="breadcrumbs">
+          <ul>
+            <li style="color: #F5793B;"><a href="#"><img src="bulma/images/arrow-left-2.svg" class="pr-2" />Back to
+                Running</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <section class="hero is-white my_left my_right">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-1by2 pb-6">
+          <div class="column">
+            <figure class="image p-lr-3">
+              <img src="bulma/images/pexels-dania-ortega-7462557.png" height="553px" alt="Image">
+            </figure>
+          </div>
+          <div class="column pr-5">
+            <div class="media-content" style="overflow: hidden;">
+              <p class="p-18">
+              <h1 class="title has-text-weight-bold p-33">Running Classes for Marathon</h1>
+              <br>
+              <h5 class="title has-text-weight-semibold p-20" style="margin-top: -25px;">
+                ABOUT
+              </h5>
+              <p style="margin-top: -25px;" class="p-16 pt-2 p_fixed">Join the virtual cycling challenge between 27 September
+                and 30 September 2021. The ride will very small and limited and we partner with while all social
+                distancing best practices will take place. You’ll get a celebratory finisher’s badge plus race-ready
+                legs!</p>
+              <h1 class="title has-text-weight-bold pt-6 p-20">
+                AVAILABILITY
+              </h1>
+              <div class="columns is-12 is-hidden-mobile">
+                <div class="column is-4">
+                  <h5 class="has-text-weight-bold">Monday</h5>
+                  <p class=" mt-1">5:30am - 8:00am</p>
+                </div>
+                <div class="column is-4">
+                  <h5 class="has-text-weight-bold">Tuesday</h5>
+                  <p class=" mt-1">5:30am - 8:00am</p>
+                </div>
+                <div class="column is-4">
+                  <h5 class="has-text-weight-bold">Wednesday</h5>
+                  <p class=" mt-1">5:30am - 8:00am</p>
+                </div>
+              </div>
+              <div class="columns is-12 is-hidden-desktop is-hidden-tablet">
+                <div class="column">
+                  <p><span class="has-text-weight-bold">Monday</span> <span style="margin-left: 2.90rem;"> 5:30am - 8:00am</span></p>
+                  <p class="pt-3"><span class="has-text-weight-bold">Tuesday</span><span style="margin-left: 3rem;">5:30am - 8:00am</span>
+                  </p>
+                  <p class="pt-3"><span class="has-text-weight-bold">Wednesday </span><span style="margin-left: 1.1rem;">5:30am - 8:00am</span>
+                  </p>
+                </div>
+              </div>
+              <h1 class="subtitle has-text-weight-semibold">
+                PREFERRED DATE & TIME
+              </h1>
+              <div class="field">
+                <!-- <p class="control has-icons-left">
+                  <input class="input is-normal" type="text" placeholder="Select Date and Time">
+                  <span class="icon is-small is-left">
+                    <i class="fa-regular fa-calendar"></i>
+                  </span>
+                </p> -->
+                <div class="bulma_cobe_calendar">
+                  <input type="text" class="datetimepicker-dummy-input" data-display-mode="dialog" id="date" name="date" placeholder="Select Date and Time" >
+                </div>
+              </div>
+              <div class="field is-grouped is-grouped-left">
+                <p class="control">
+                  <a class="button button-gray">
+                    JOIN SESSION
+                  </a>
+                </p>
+                <p class="control pl-2">
+                  <a class="button is-outlined button-outline">
+                    FAVORITE
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="border-b"></div>
+  <section class="hero is-white my_left my_right is-hidden-mobile">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-12 pt-6 pb-6 pl-6">
+          <div class="column is-2">
+            <div>
+              <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+            </div>
+            <div class="coach_cont ml-4">
+              <a class="button page-2_btn has-text-white text-background" style="font-size: 1rem; width: 8rem;margin-top: 1.5rem;">
+                CONTACT ME
+              </a>
+            </div>
+          </div>
+
+          <div class="column is-10">
+            <h5 class="title has-text-weight-semibold p-20">
+              DEREK BURNETT
+            </h5>
+            <h5 class="subtitle has-text-weight-semibold p-16 pt-4">
+              BOXING COACH
+            </h5>
+            <p class="p-16" style="margin-top: -15px;">
+              Member since May 2022
+            </p>
+            <div class=" pt-5">
+              <h5 class="title has-text-weight-semibold p-20">
+                ACHIEVEMENTS
+              </h5>
+              <p class="p-16" style="margin-top: -20px;letter-spacing: -1px;word-spacing: 2px;">
+                Ex academy footballer - I have competed at a semi pro level in Germany and the UK. Marathon runner with
+                PB of 03:08:59, currently training towards a sub 3hr Valencia Marathon in December. Road cycling
+                enthusiast, completed multiple Gran Fondos and founded a cycling club in Singapore. I am passionate
+                about optimal nutrition, Zone 2 Training, motivation, balancing work and athletics, equipment choice and
+                much more!
+              </p>
+            </div>
+            <h5 class="title has-text-weight-semibold p-20 pt-6">
+              LANGUAGE
+            </h5>
+            <p class="p-16" style="margin-top: -25px;">
+              English, Italian, German
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="hero is-white my_left my_right is-hidden-desktop is-hidden-tablet">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-12 pt-5 pl-2">
+          <div class="column is-4">
+            <div class="columns is-12">
+              <div class="column is-12" style="display: flex; gap: 1rem;">
+                <div class="rv_mobile_pic">
+                  <img src="bulma/images/round-1.png">
+                </div>
+                <div class="pt-1">
+                  <h1 class="title has-text-weight-bold p-20">
+                    DEREK BURNETT
+                  </h1>
+                  <h5 class="subtitle has-text-weight-medium p-18">
+                    BOXING COACH
+                  </h5>
+                  <p class="p-16" style="margin-top: -20px;">
+                    Member since May 2022
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4">
+            <h5 class="title has-text-weight-bold p-20" style="margin-top: -25px;">
+              ACHIEVEMENTS
+            </h5>
+            <p class="p-16" style="margin-top: -20px;">
+              Ex academy footballer - I have competed at a semi pro level in Germany and the UK. Marathon runner with PB
+              of 03:08:59, currently training towards a sub 3hr Valencia Marathon in December. Road cycling enthusiast,
+              completed multiple Gran Fondos and founded a cycling club in Singapore. I am passionate about optimal
+              nutrition, Zone 2 Training, motivation, balancing work and athletics, equipment choice and much more!
+            </p>
+          </div>
+          <div class="column is-4">
+            <h5 class="title has-text-weight-bold p-20">
+              LANGUAGE
+            </h5>
+            <p class="p-16" style="margin-top: -20px;">
+              English, Italian, German
+            </p>
+            <div class="coach_cont pt-4">
+              <a class="button page-2_btn has-text-white text-background" style="font-size: 1rem; width: 12rem;">
+                CONTACT ME
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="main_foot">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-one-fifth">
+            <a class="foot-logo-text" href="index.html">SPORTA</a>
+          </div>
+          <div class="column is-three-fifth">
+            <div class="columns">
+              <div class="column">
+                <div class="last_foot">
+                  <a href="privacy-policy.html"><span class="p-16">Privacy Policy</span></a>
+                </div>
+              </div>
+              <div class="column">
+                <div class="last_foot">
+                  <a href="privacy-policy.html"><span class="p-16">Terms & Conditions</span></a>
+                </div>
+              </div>
+              <div class="column">
+                <div class="last_foot">
+                  <a href="faq.html"><span class="p-16">FAQs</span></a>
+                </div>
+              </div>
+              <div class="column">
+                <div class="last_foot">
+                  <a href="privacy-policy.html"><span class="p-16">Cookie Settings</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-fifth has-text-right pr-0">
+            <i class="fa-brands fa-facebook-f px-2"></i>
+            <i class="fa-brands fa-instagram px-2"></i>
+            <i class="fa-brands fa-twitter px-2"></i>
+            <i class="fa-brands fa-youtube px-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+
+    });
+  </script>
+
+<script>
+bulmaCalendar.attach('#date', {
+dateFormat: "DD-MMM-YYYY",
+type: 'datetime',
+minuteSteps: "30",
+validateLabel:"CONFIRM BOOKING",
+showClearButton: false
+});
+document.querySelector('#date').bulmaCalendar.on('select', date => {console.log(date)});
+</script>
+
+</body>
+
+</html>

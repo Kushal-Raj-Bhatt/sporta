@@ -1,0 +1,236 @@
+.login_header_desk{
+    border-bottom: 1px solid #dddddd;
+    padding: 2rem 0rem 2rem 6rem;
+    width: 125%;
+}
+.left_login {
+    background: #fff;
+    padding: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+    box-shadow: 0.3px 0.6px 0.6px hsl(0deg 0% 0% / 0.49);
+    margin: 1rem 0px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+section.cobe_login {
+    background: #5ab1fe;
+}
+.login_form h1{
+    color: #303841;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.login_form .login_social button {
+    border: 1px solid #DDDDDD;
+    margin: 0.5rem 0;
+    padding: 0 36px;
+    width: 100%;
+}
+.login_form .login_social {
+    display: flex;
+    gap: 10px;
+    margin-top: 0rem;
+}
+.login_form .login_social button:hover{
+    background:#9EA3AE;
+    color: #fff;
+}
+.login_form .or_login {
+    margin: .5rem 0;
+    display: flex;
+    justify-content: center;
+}
+.login_form .or_login p{
+    font-size: 1rem;
+    color: #9EA3AE;
+    font-weight: 500;
+}
+.login_social .button{
+    font-size: 1.125rem;
+    color: #303841;
+    font-weight: 500;
+}
+.forgot_box a{
+    font-size: 1.125rem;
+    color: #5ab2ff;
+    font-weight: 500;
+}
+.login_submit .button{
+    background-color: #0C1844;
+    border: #0C1844;
+    width: 100%;
+}
+.login_submit .button:hover{
+    background: #5ab1fe;
+}
+.login_submit .field.is-grouped{
+    display: block !important;
+    width: 100%;
+    margin: .5rem 0;
+}
+.last_login_box p{
+    font-size: 1.125rem;
+    color: #303841;
+    font-weight: 500;
+    margin: 1rem 0;
+    text-align: center;
+}
+.last_login_box p span a{
+    font-size: 1.125rem;
+    color: #5ab2ff;
+    font-weight: 500;
+}
+.right_login {
+    height: 100%;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.right_login img{
+    height: min-content;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.right_login.signup_pic img{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width: 991px){
+    /* .login_form {
+        padding: 2rem 0rem 2rem 1.5rem;
+    } */
+    .login_form .or_login {
+        margin: 1rem 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .login_form_start {
+        width: 95%;
+    }
+    .login_form .login_social button {
+        border: 1px solid #DDDDDD;
+        margin: 0.5rem 0;
+        padding: 0 25px;
+        font-size: 1.5rem;
+        flex-basis: 50%;
+    }
+    .signup_name .field {
+        flex-basis: 50%;
+    }
+    .login_form h1 {
+        color: #303841;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .login_form .or_login p {
+        font-size: 1.3331rem;
+        color: #9EA3AE;
+        font-weight: 500;
+        margin-left: -20px;
+    }
+    .login_form .form_here .field label.label {
+        position: absolute;
+        z-index: 11;
+        left: 20px;
+        font-size: 1.0831rem;
+        color: #9EA3AE;
+        top: 5px;
+        font-weight: 500;
+    }
+    .login_form .form_here .field .control input {
+        font-weight: 600;
+        height: 65px;
+        padding-left: 20px;
+        font-size: 1.5rem;
+        color: #303841;
+        padding-top: 27px;
+        border-radius: 0px;
+    }
+    .login_submit .button {
+        background-color: #303841;
+        border: #303841;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .last_login_box p {
+        font-size: 1.5rem;
+        color: #303841;
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+    .forgot_box a {
+        font-size: 1.5rem;
+        color: #5ab2ff;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+    .login_submit {
+        margin-top: 1.5rem;
+    }
+    .login_form .login_social {
+        display: flex;
+        gap: 10px;
+        margin-top: 1rem;
+        padding: 0 0px 0px 0px;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .reset_password_main {
+        display: flex;
+        align-items: flex-start !important;
+        height: 100% !important;
+        width: 100%;
+        margin-top: 0rem !important;
+    }
+    .reset_password_main .login_form {
+        padding: 2rem 0rem 2rem 1rem !important;
+        width: 100%;
+    }
+    .sent_msg p{
+        width: 95% !important;
+    }
+    .last_login_box p span a {
+        font-size: 1.5rem;
+        color: #5ab2ff;
+        font-weight: 500;
+    }
+}
+
+
+/* Signup Css Start */
+.signup_name {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+/* Signup Css End */
+
+/* reasetpassword Css start */
+.reset_password_main {
+    display: flex;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    margin-top: -3rem;
+}
+.reset_password_main .login_form {
+    padding: 2rem 0rem 2rem 6rem;
+    width: 100%;
+}
+.sent_msg {
+    margin-bottom: 2rem;
+}
+.sent_msg p {
+    background-color: #11C7A9;
+    color: #fff;
+    padding: 8px 10px;
+    width: 60.5%;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    font-size: 0.875rem;
+}
+
+/* reserpassword Css End */

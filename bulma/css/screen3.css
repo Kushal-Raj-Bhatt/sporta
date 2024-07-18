@@ -1,0 +1,130 @@
+
+/*Style sheet kushl Start*/
+
+/*.last_foot {
+    display: flex;
+    gap: 4rem;
+}
+*/
+
+.buttons .button:not(:last-child):not(.is-fullwidth) {
+    margin-right: 0.5rem;
+    border-radius: 0px;
+}
+.button {
+    background-color: #303841;
+    color: #fff;
+    border-width: 1px;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.1em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(0.1em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 0px;
+    border: none;
+}
+
+.button.is-hovered, .button:hover {
+    border-color: #b5b5b5;
+    color: #fff;
+}
+.content h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.8em;
+}
+
+/*Style sheet kushl End*/
+/* Naveen Css */
+.text-color{
+    color: #5ab2ff;
+}
+.text-background{
+    background-color: #5ab2ff;
+}
+
+.hero-body.home-banner-cobe2 {
+    
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-size: cover !important; 
+}
+.card-image:first-child img {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    position: absolute;
+    top: 12px;
+}
+.card-footer-border-top{
+    border: 1px solid #DDDDDD;
+}
+.content figure {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-align: center;
+    margin-top: -0.2em;
+}
+.title-pad{
+    padding-top: 10.625rem; 
+} 
+.icon-align{
+    float: right;
+    margin-top: -52px;
+}
+ 
+.buttons.book_btn {
+    margin-right: -16px;
+    margin-left: -16px;
+    margin-bottom: -1.5rem;
+}
+.input::placeholder{
+    color: #9EA3AE; 
+}
+@media only screen and (max-width: 991px) {
+
+        .hero-body.home-banner-cobe2 {
+            height: 483px;
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: contain !important; 
+        }
+        .title-pad{
+            padding-top: 9.625rem; 
+            text-align: center;
+        }
+        
+        .p-20{
+            font-size: 1.25rem;
+        }
+        .p-22{
+            font-size: 1.375rem;
+        } 
+ 
+}
+@media only screen and (max-width: 450px) {
+    .hero-body.home-banner-cobe2 {
+        height: 268px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: contain !important; 
+    }
+    .title-pad{
+        padding-top: 4.625rem; 
+        text-align: center;
+    }
+}
+@media only screen and (width: 650px) {
+    .hero-body.home-banner-cobe2 {
+        height: 413px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: contain !important; 
+    }
+    .title-pad{
+        padding-top: 8.625rem; 
+        text-align: center;
+    }
+}
+

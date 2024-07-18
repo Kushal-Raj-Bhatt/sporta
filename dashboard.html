@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cobe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/be0be6d488.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="bulma/css/style.css">
+    <link rel="stylesheet" type="text/css" href="bulma/css/screen5.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="my_header">
+          <div class="container">
+            <nav class="navbar has-background-grey-dark" role="navigation" aria-label="main navigation">
+              <div class="navbar-brand">
+                <a class="navbar-item mob_center" href="index.html">SPORTA</a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                  data-target="navbarBasicExample">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+                <div class="user_log is-hidden-desktop">
+                  <div class="pic_user">
+                   <img src="bulma/images/boxing.jpg" alt="">
+                  </div>
+                  </div>
+              </div>
+    
+              <div id="navbarBasicExample" class="navbar-menu ">
+                <div class="navbar-end">
+                  <a class="navbar-item has-text-grey-light" href="index.html">
+                    Home
+                  </a>
+    
+                  <a class="navbar-item has-text-grey-light" href="games.html">
+                    Games 
+                  </a>
+                  <a class="navbar-item has-text-grey-light" href="coach.html">
+                    Our Coaches
+                  </a>
+                  <a class="navbar-item has-text-grey-light active" href="dashboard.html">
+                   Your Dashboard
+                  </a>
+                  <div class="navbar-item">
+                    <div class="buttons">
+                      <a class="button is-white" href="sign-up.html">
+                        <span class="text-color has-text-weight-semibold">SIGN UP</span>
+                      </a>
+                      <a class="button has-text-white has-text-weight-semibold text-background" href="login.html">
+                        LOGIN
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+  
+    <section class="hero is-white my_left my_right">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-12 is-12-mobile pt-4 pb-6">
+                    <div class="column is-3 is-12-mobile" id="menu_hide">
+                        <div class="left_column">
+                            <div class="mobile_profile">
+                                <div class="mobile_img">
+                                    <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                </div>
+                                <div class="pt-5 mobile_name">
+                                    <h1 class="title has-text-weight-bold p-24">
+                                        DEREK BURNETT
+                                    </h1>
+                                    <h6 class="subtitle has-text-weight-normal p-24" style="color: #808080;">
+                                        Boxing Coach
+                                    </h6>
+                                    <p class="p-16 has-text-weight-medium" style="margin-top: -20px;">
+                                        Member since May 2022
+                                    </p> 
+                                    <p class="control has-text-white pt-2 has-icons-left has-icons-right is-hidden-mobile" >
+                                        <button class="button page-2_btn follow_btn strva_btn">
+                                            <span class="icon is-small is-left">
+                                                <img src="bulma/images/_x33_23-strava.svg"/>
+                                              </span>
+                                              <span class="icon is-small is-right">
+                                                <img src="bulma/images/Strava_Logo.svg"/>
+                                              </span>
+                                            <span style="margin-left: -32px; color: #fff;font-size: 1rem;">FOLLOW ON</span>
+                                        </button>
+                                    </p> 
+                                </div>
+                            </div>
+                            <div class="aside_menu pt-6">
+                                <aside class="menu side_menu">
+                                    <ul class="menu-list p-22 has-text-weight-bold">
+                                        <li><a class="is-active" id="about_link" style="background-color: #F7F7F7;">ABOUT</a></li>
+                                        <li><a href="screen12.html">ACTIVE LISTINGS</a></li>
+                                        <li><a href="screen18.html">MESSAGES</a></li>
+                                        <li><a href="screen13.html">CALENDAR</a></li>
+                                        <li><a href="screen14.html">SESSIONS</a></li> 
+                                        <li><a href="screen16.html">EARNINGS</a></li>
+                                        <li><a>SETTINGS</a></li>
+                                    </ul>
+                                </aside>
+                            </div>
+                            <div class="logout_btn pt-5">
+                                <a class="button">LOGOUT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-6"  > 
+                        <div class="right_column" id="profile_hide">
+                            <div>
+                                <h5 class="title has-text-weight-semibold p-33 pt-3">
+                                    ABOUT YOU
+                                </h5>
+                                <p class="p-16" style="margin-top: -15px;">
+                                    Member since May 2022
+                                </p>
+                            </div>
+                            <div class="mt-6" style="display: flex;">
+                                <div class="right_img">
+                                    <img src="bulma/images/pexels-gleb-krasnoborov-2628207-2.png">
+                                </div>
+                                <h5 class="p-16 text-color is-underlined has-text-weight-semibold change_profle">
+                                    <a href="#">Change Profile Photo</a>
+                                </h5>
+                            </div>
+                            <div class="input_area pt-6">
+                                <div class="columns is-12">
+                                    <div class="column is-6">
+                                        <div class="field">
+                                            <div class="control has-floating-label"> 
+                                                <input class="input is-medium with-floating-label" placeholder=" " value="David" type="text">
+                                                <label class="label is-floating-label">FIRST NAME</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="column is-6">
+                                        <div class="field">
+                                            <div class="control has-floating-label"> 
+                                                <input class="input is-medium with-floating-label" placeholder=" " value="Costa" type="text">
+                                                <label class="label is-floating-label">LAST NAME</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="control has-floating-label">
+                                        <input class="input is-medium with-floating-label" placeholder=" " value="davidcosta@mail.com" type="text">
+                                        <label class="label is-floating-label">EMAIL ID</label>
+                                    </div>
+                                </div>
+                                <div class="field pt-3">
+                                    <p class="control has-icons-right has-floating-label">
+                                        <input class="input is-medium with-floating-label" placeholder=" " value="davidcosta@mail.com" type="text">
+                                        <label class="label is-floating-label">EMAIL ID</label>
+                                        <span class="icon is-small is-right arrow-icon">
+                                            <i class="fa fa-angle-down"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="pt-6 textarea_input">
+                                <h5 class="title has-text-weight-semibold p-24">
+                                    Achievements
+                                </h5>
+                                <textarea class="textarea p-16"
+                                    rows="7">Ex academy footballer - I have competed at a semi pro level in Germany and the UK. Marathon runner with PB of 03:08:59, currently training towards a sub 3hr Valencia Marathon in December.Road cycling enthusiast, completed multiple Gran Fondos and founded a cycling club in Singapore. I am passionate about optimal nutrition, Zone 2 Training, motivation, balancing work and athletics, equipment choice and much more!</textarea>
+
+                            </div>
+                            <div class="lang_input">
+                                <h5 class="title has-text-weight-semibold p-24 pt-6">
+                                    Language
+                                </h5>
+                                <div class="field">
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="English, Italian, German" value="English, Italian, German" style=" background-color: #F9FAFB;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h5 class="title has-text-weight-semibold p-24 pt-6">
+                                    Availability
+                                </h5>
+                                <div class="dynmic_feild">
+                                    <div class="add_field">
+                                        <div class="columns is-12" style="margin-bottom: -0.25rem;">
+                                            <div class="column is-4">
+                                                <div class="field">
+                                                    <label class="label p-16" style="color: #808080;">Days</label>
+                                                    <div class="control">
+                                                        <div class="select is-fullwidth">
+                                                            <select style=" background-color: #F9FAFB;">
+                                                                <option>Monday</option> 
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>  
+                                            <div class="column is-4 is-6-mobile">
+                                                <div class="field">
+                                                    <label class="label p-16" style="color: #808080;">Start Time</label>
+                                                    <div class="control">
+                                                        <div class="select is-fullwidth">
+                                                            <select style=" background-color: #F9FAFB;"> 
+                                                                <option>5:30am</option> 
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column is-4 is-6-mobile">
+                                                <div class="field">
+                                                    <label class="label p-16" style="color: #808080;">End Time</label>
+                                                    <div class="control">
+                                                        <div class="select is-fullwidth">
+                                                            <select style=" background-color: #F9FAFB;">
+                                                                <option>8:00pm</option> 
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                    <div class="add_btn">
+                                       <a href="javascript:void(0);" class="add_button" title="Add field"><img src="bulma/images/plus-circle.png"/><h5 class="text-color p-18 has-text-weight-semibold" style="margin-left: 7px; ">ADD MORE</h5></a>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer id="footer_hide">
+        <div class="main_foot">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-one-fifth">
+                        <a class="foot-logo-text" href="index.html">SPORTA</a>
+                    </div>
+                    <div class="column is-three-fifth">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="last_foot">
+                                    <a href="privacy-policy.html"><span class="p-16">Privacy Policy</span></a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="last_foot">
+                                    <a href="privacy-policy.html"><span class="p-16">Terms & Conditions</span></a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="last_foot">
+                                    <a href="faq.html"><span class="p-16">FAQs</span></a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="last_foot">
+                                    <a href="privacy-policy.html"><span class="p-16">Cookie Settings</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-one-fifth has-text-right pr-0">
+                        <i class="fa-brands fa-facebook-f px-2"></i>
+                        <i class="fa-brands fa-instagram px-2"></i>
+                        <i class="fa-brands fa-twitter px-2"></i>
+                        <i class="fa-brands fa-youtube px-2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var maxField = 10; //Input fields increment limitation
+            var addButton = $('.add_button'); //Add button selector
+            var wrapper = $('.add_field'); //Input field wrapper
+            var fieldHTML = '<div><div class="columns is-12"><div class="column is-4" ><div class="field"><label class="label p-16 is-hidden-desktop" style="color: #808080;">Days</label><div class="control"><div class="select is-fullwidth"><select><option>Monday</option></select></div></div> </div></div><div class="column is-4 is-6-mobile"><div class="field"><label class="label p-16 is-hidden-desktop" style="color: #808080;">Start Time</label><div class="control"><div class="select is-fullwidth"><select><option>5:30am</option></select></div></div></div></div><div class="column is-4 is-6-mobile"><div class="field"><label class="label p-16 is-hidden-desktop" style="color: #808080;">End Time</label><div class="control"><div class="select is-fullwidth"><select><option>8:00pm</option> </select></div></div></div></div></div></div>'; //New input field html 
+            var x = 1; //Initial field counter is 1
+            
+            //Once add button is clicked
+            $(addButton).click(function(){
+                //Check maximum number of input fields
+                if(x < maxField){ 
+                    x++; //Increment field counter
+                    $(wrapper).append(fieldHTML); //Add field html
+                }
+            });
+            
+            //Once remove button is clicked
+            // $(wrapper).on('click', '.remove_button', function(e){
+            //     e.preventDefault();
+            //     $(this).parent('div').remove(); //Remove field html
+            //     x--; //Decrement field counter
+            // });
+        });
+        
+        $(document).on('click','.arrow', function(){ 
+                $("#menu_hide").show(); 
+                $("#profile_hide").hide();
+                $("#desktop_menu").show();
+                $("#mobile_side_menu").hide();
+                $("#menu_hide").show();
+        });
+        $(document).on('click','.handle_onclick', function(){
+            $("#profile_hide").removeClass("is-hidden-mobile")
+                $("#mobile_side_menu").show();
+                $("#desktop_menu").hide();
+                $("#menu_hide").hide();
+                $("#profile_hide").toggle();
+        });
+        $(document).ready(function () {
+           
+            // $(window).on("resize", function (e) {
+            //     checkScreenSize();
+            // });
+
+            checkScreenSize();
+
+            function checkScreenSize(){
+                var newWindowWidth = $(window).width(); 
+                
+                if (newWindowWidth < 770) {
+                    
+                    $("#menu_hide").hide(); 
+                    $("#profile_hide").hide();
+                    $("#mobile_side_menu").show(); 
+                    $("#desktop_menu").hide(); 
+                    $("#profile_hide").toggle();
+                    $(".is-active").addClass("handle_onclick");
+                   
+                }
+                else
+                {
+                    $(".is-active").removeClass("handle_onclick");
+                    $("#profile_hide").show();
+                    $("#menu_hide").show();
+                    $("#desktop_menu").show();
+                    $("#mobile_side_menu").show(); 
+                }
+            }
+        });
+</script>
+
+</body>
+
+</html>

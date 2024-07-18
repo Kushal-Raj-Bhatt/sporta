@@ -1,0 +1,228 @@
+.calendar_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title_div .session_icon{
+    display: flex;
+    float: right;
+    margin-top: -50px;
+}
+.calendar_div .left_side {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.calendar_div .right_side{
+    display: flex;
+}
+.right_side select {
+    width: 100px;
+    border-color: #F7F7F7 !important;
+}
+.icon_active{ 
+    color: #5ab2ff !important; 
+}
+table {
+    border-color: #F7F7F7 !important;
+   
+}
+.right_side .button {
+    background-color: #fff;
+    border-color: #F7F7F7;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(0.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 0px;
+}
+.title_div .button {
+    background-color: #fff;
+    border-color: #F7F7F7;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(0.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 0px;
+}
+ 
+.calendar_table table.is-fullwidth {
+    width: 109%;
+    margin-left: -97px; 
+}
+.tr_blank{
+    height: 40px;
+    position: relative;
+}
+.calendar_table table tbody tr td {
+    height: 140px;
+    width: 350px;
+}
+.calendar_table table thead tr td {
+     text-align: center;
+     font-family: 'DM Sans', sans-serif;
+     columns: #303841;
+     font-size: 14px;
+     font-weight: 500;
+}
+strong {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 12px;
+}
+.calendar_table table tbody tr td .box{
+    background-color: #5ab2ff1A;
+    border-radius: 6px;
+    box-shadow: 0 .5em 1em -.0emrgba(10,10,10,.1),0 0 0 1pxrgba(10,10,10,.02) !important;
+    color: #4a4a4a;
+    display: block;
+    padding: 0.2rem;
+    position: absolute;
+    height: 180px;
+    width: 122px;
+    margin-top: -8px;
+   
+} 
+.calendar_table table tbody tr td{
+    border: 1px solid #dbdbdb;
+    border-width: 0 0 1px;
+    padding: 0.3em;
+    vertical-align: top;
+}
+.calendar_table table tbody tr td .box .media-content{
+    border-top: 2px solid #5ab2ff;
+}
+.calendar_table table tbody tr{
+    position: relative;
+}
+.calendar_table table tbody tr .td_box_style .box{
+    background-color: #5ab2ff1A;
+    border-radius: 6px;
+    box-shadow: 0 .5em 1em -.0emrgba(10,10,10,.1),0 0 0 1pxrgba(10,10,10,.02) !important;
+    color: #4a4a4a;
+    display: block;
+    padding: 0.2rem;
+    position: absolute;
+    height: 110px;
+    width: 122px;
+    margin-top: -8px;
+   
+}
+.time_set{ 
+    position: absolute;
+    top: 118px;
+    left: 90px;
+    border: none !important;
+}
+.last_time{
+    position: inherit;
+    top: 117px;
+    left: 90px;
+    border: none !important;
+}
+.time_set_thead{
+    position: absolute;
+    top: 22px;
+    left: 90px;
+    border: none !important;
+}
+.table-container {
+    -webkit-overflow-scrolling: touch;
+    /* overflow: auto;  */
+    max-width: 100%;
+    padding: 2rem 0 0 2rem;
+    
+}
+@media screen and (max-width: 991px){
+    .calendar_div .left_side {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom:1rem;
+    }
+    .calendar_div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    /* .table-container {
+        display: flex;
+        -webkit-overflow-scrolling: touch;
+        overflow: auto; 
+        max-width: 100%;
+        padding: 2rem 0 0 2rem;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        
+    } */
+    .calendar_table {
+    padding-left: 0rem;
+    }
+    .calendar_table table.is-fullwidth {
+        width: 109%;
+        margin-left: 0px;
+    }
+    .time_set_thead{
+        position: absolute;
+        top: 22px;
+        left: 4px;
+        border: none !important;
+    }
+    td.time_set_thead {
+        position: absolute;
+        top: 22px;
+        left: -40px;
+        border: none !important;
+    }
+
+    .time_set {
+        position: absolute;
+        top: 122px;
+        left: 0;
+        border: none !important;
+    }
+    .last_time{
+        position: inherit;
+        top: 117px;
+        left: 0px;
+        border: none !important;
+    }
+    .calendar_table table thead tr td {
+        text-align: center;
+        font-family: 'DM Sans', sans-serif;
+        columns: #303841;
+        font-size: 14px;
+        font-weight: 500;
+        min-width: 8rem;
+    }
+    table {
+        border-color: #F7F7F7 !important;
+        white-space: nowrap;
+    }
+    /* .calendar_table table tbody tr td .box {
+        position: relative !important;
+       
+    } */
+}
+@media screen and (width: 650px){
+.calendar_div .left_side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.calendar_div .left_side .p-16{
+    margin-top: -5px;
+}
+}

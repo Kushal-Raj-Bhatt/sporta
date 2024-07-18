@@ -1,0 +1,41 @@
+.add_plus_btn{
+    display: flex;
+    width: 22%;
+    justify-content: space-around;
+}
+span.icon.is-small.is-left.img_set {
+    left: 50px;
+    margin-left: -50px;
+}
+.columns.is-12.pt-5.card_column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 991px) {
+    .add_plus_btn{
+        display: flex;
+        width: 32%;
+        justify-content: space-around;
+    }
+    .columns.is-12.pt-5.card_column {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .add_plus_btn{
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+    }
+}
+@media only screen and (width: 650px) {
+    .add_plus_btn{
+        display: flex;
+        width: 34%;
+        justify-content: space-around;
+    }
+}
