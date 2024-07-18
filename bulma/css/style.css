@@ -59,10 +59,18 @@ input, label, textarea, button{
 img{
     max-width: 100%;
 }
+.hero-body{
+    padding: 0px !important;
+}
 @media screen and (min-width: 1216px){
 .container:not(.is-max-desktop) {
     max-width: 1250px;
 }
+}
+@media screen and (min-width: 1025px) {
+    .container {
+        padding: 0px 3rem !important;
+    }
 }
 @media screen and (min-width: 768px){
     .container{
@@ -240,7 +248,7 @@ font-size: 30px;
 font-weight: bold;
 }
 .hero-body {
-    padding: 1rem 3rem;
+    padding: 0px;
 }
 /*Style sheet kushl End*/
 /* Naveen Css */
@@ -359,7 +367,7 @@ input.input.outline-input.news-llater-box::placeholder {
 }
 .hero-body.home-banner-Sporta {
     background: url(../../bulma/images/fighter.jpg);
-    height: 815px; 
+    height: 500px; 
     background-repeat: no-repeat !important;
     background-position:center !important;
     background-size: cover !important
@@ -433,9 +441,9 @@ a.navbar-item.mob_center {
     font-size: 25px;
     font-weight: 500;
 }
-.navbar-end .navbar-item {
+/* .navbar-end .navbar-item {
     padding: 1rem 1.5rem;
-}
+} */
 .footer_align {
     text-align: right;
 }
@@ -541,10 +549,10 @@ section.latset_rev_main {
     font-weight: 500;
 
 }
-.p-lr-3{
+/* .p-lr-3{
     padding-left: 3rem;
     padding-right: 3rem;
-}
+} */
 .services .swiper-button-next, .swiper-button-prev {
     position: absolute;
     top: 75%;
@@ -843,9 +851,9 @@ h1.join-uc {
             margin-left: 0rem;
             position: relative;
         }
-        .hero-body.main-psports {
+        /* .hero-body.main-psports {
             padding: 0rem 0.5rem 3rem 0rem !important;
-        }
+        } */
         .p-lr-3{
             padding-left: 0rem;
             padding-right: 0rem;
@@ -888,7 +896,7 @@ h1.join-uc {
             padding-right: 0rem;
         }
         .hero-body {
-            padding: 1rem 0rem; 
+            padding: 0px; 
         }
        
         .innr-line {
@@ -1030,9 +1038,9 @@ h1.join-uc {
         width: 80px;
     }
 }
-.hero-body.main-psports {
+/* .hero-body.main-psports {
     padding: 0rem 0rem 2rem 5rem;
-}
+} */
 .main_foot{
     border-top:1px solid #DDDDDD ;
     padding: 1.5rem 0px;
