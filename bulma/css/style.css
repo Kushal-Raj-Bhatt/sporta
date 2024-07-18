@@ -1029,7 +1029,7 @@ h1.join-uc {
 }
 @media screen and (max-width: 1023px){
 .navbar-menu {
-    background-color: #303841;
+    background-color: #0C1844 !important;
     box-shadow: 0 8px 16pxrgba(10,10,10,.1);
     padding: 0.5rem 0;
 }
