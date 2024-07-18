@@ -62,6 +62,9 @@ img{
 .hero-body{
     padding: 0px !important;
 }
+.container {
+    padding: 0px 1rem !important;
+}
 @media screen and (min-width: 1216px){
 .container:not(.is-max-desktop) {
     max-width: 1250px;
@@ -745,9 +748,9 @@ h1.join-uc {
 }
 
 @media screen and (max-width: 1024px){
-    .pic_user {
+    /* .pic_user {
         padding: 10px 20px 0px 0px;
-    }
+    } */
     a.navbar-item.mob_center{
         position: absolute;
         left: 32%;
