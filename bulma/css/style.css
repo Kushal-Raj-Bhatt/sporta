@@ -958,12 +958,12 @@ h1.join-uc {
             gap: 0.5rem;
             align-items: center;
         }
-        .my_left{
+        /* .my_left{
             padding-left: 1.3rem;
         }
         .my_right{
             padding-right: 1.3rem;
-        }
+        } */
         .last_foot {
             text-align: left !important;
         }
