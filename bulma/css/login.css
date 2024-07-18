@@ -23,7 +23,7 @@ html {
 .login_form .login_social button {
     border: 1px solid #DDDDDD;
     margin: 0.5rem 0;
-    padding: 0 36px;
+    padding: 0 0px;
     width: 100%;
 }
 .login_form .login_social {
