@@ -168,15 +168,16 @@ section.hero.active_d_header_pic {
 }
 .form_here .field{
     position: relative;
+    width: 100%;
 }
 .form_here .field .control input {
     font-weight: 600;
-    height: 58px;
-    padding-left: 20px;
-    font-size: 18px;
+    font-size: 15px;
     color: #303841;
-    padding-top: 20px;
+    padding-top: 15px;
     border-radius: 0px;
+    padding-left: 10px;
+    height: 100%;
 }
 .form_here .field .control .select{
     width: 100%;
@@ -212,10 +213,10 @@ section.hero.active_d_header_pic {
 .form_here .field label.label {
     position: absolute;
     z-index: 11;
-    left: 20px;
-    font-size: 13px;
+    left: 10px;
+    font-size: 10px;
     color: #9EA3AE;
-    top: 5px;
+    top: 3px;
     font-weight: 500;
 }
 .control.cancel_btn button.button.is-link.is-light {

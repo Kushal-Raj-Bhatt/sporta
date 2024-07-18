@@ -10,8 +10,7 @@
   <link rel="stylesheet" type="text/css" href="bulma/css/style.css">
   <link rel="stylesheet" type="text/css" href="bulma/css/login.css">
   <link rel="stylesheet" type="text/css" href="bulma/css/screen8.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
-  /> 
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
@@ -30,9 +29,9 @@
             </a>
             <div class="user_log is-hidden-desktop">
               <div class="pic_user">
-               <img src="bulma/images/boxing.jpg" alt="">
+                <img src="bulma/images/boxing.jpg" alt="">
               </div>
-              </div>
+            </div>
           </div>
 
           <div id="navbarBasicExample" class="navbar-menu ">
@@ -42,13 +41,13 @@
               </a>
 
               <a class="navbar-item has-text-grey-light" href="games.html">
-                Games 
+                Games
               </a>
               <a class="navbar-item has-text-grey-light" href="coach.html">
                 Our Coaches
               </a>
               <a class="navbar-item has-text-grey-light" href="dashboard.html">
-               Your Dashboard
+                Your Dashboard
               </a>
               <div class="navbar-item">
                 <div class="buttons">
@@ -66,50 +65,45 @@
       </div>
     </div>
   </header>
-<section class="cobe_login">
-    <div class="columns is-gapless">
-        <div class="column">
-            <div class="left_login">
-                <div class="login_header_desk is-hidden-mobile">
-                </div>
-                <div class="reset_password_main">
-                    <div class="login_form">
-                        <h1>Create New Password</h1>
-                        <div class="login_form_start">
-                            <div class="form_here mt-3">       
-                                <div class="field">
-                                    <label class="label">NEW PASSWORD</label>
-                                    <div class="control">
-                                      <input class="input" type="password" placeholder="" value="**********">
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label">CONFIRM NEW PASSWORD</label>
-                                    <div class="control">
-                                      <input class="input" type="password" placeholder="" value="**********">
-                                    </div>
-                                </div>
-                                <div class="login_submit pt-4">
-                                    <div class="field is-grouped">
-                                        <div class="control">
-                                          <button class="button is-link">CONFIRM</button>
-                                        </div>
-                                      </div>
-                                </div>
-                            </div>
-                        </div>
+  <section class="cobe_login">
+    <div class="container">
+      <div class="columns is-gap is-justify-content-center mb-0">
+        <div class="column is-5">
+          <div class="left_login">
+            <div class="reset_password_main">
+              <div class="login_form">
+                <h1>Create New Password</h1>
+                <div class="login_form_start">
+                  <div class="form_here mt-3">
+                    <div class="field">
+                      <label class="label">NEW PASSWORD</label>
+                      <div class="control">
+                        <input class="input" type="password" placeholder="" value="**********">
+                      </div>
                     </div>
+                    <div class="field">
+                      <label class="label">CONFIRM NEW PASSWORD</label>
+                      <div class="control">
+                        <input class="input" type="password" placeholder="" value="**********">
+                      </div>
+                    </div>
+                    <div class="login_submit pt-4">
+                      <div class="field is-grouped">
+                        <div class="control"><a href="login.html">
+                          <button class="button is-link">CONFIRM</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="column is-hidden-mobile" style="position: relative;">
-            <div class="right_login">
-                <img src="bulma/images/login_pic.png" alt="">
-            </div>
-        </div>
+      </div>
     </div>
-</section>
-  
+  </section>
+
   <!-- <footer>
     <div class="main_foot">
       <div class="container">
@@ -156,26 +150,26 @@
   <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', () => {
 
-  // Get all "navbar-burger" elements
-  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-  // Add a click event on each of them
-  $navbarBurgers.forEach( el => {
-    el.addEventListener('click', () => {
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
 
-      // Get the target from the "data-target" attribute
-      const target = el.dataset.target;
-      const $target = document.getElementById(target);
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
 
-      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-      el.classList.toggle('is-active');
-      $target.classList.toggle('is-active');
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
 
     });
-  });
-
-});
-  </script> 
+  </script>
 </body>
 
 </html>
