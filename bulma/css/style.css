@@ -117,8 +117,9 @@ img{
 .has-background-grey-dark {
     background-color: #0C1844 !important;
 }
+
 .buttons .button:not(:last-child):not(.is-fullwidth) {
-    margin-right: 0.8rem;
+    margin-right: 0rem;
     border-radius: 0px;
 }
 .button {
@@ -538,7 +539,7 @@ section.latset_rev_main {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 7px;
+    gap: 10px;
 }
 .title {
     color: #000000;
@@ -812,7 +813,11 @@ h1.join-uc {
     
 
     .navbar-end .navbar-item {
-        padding: 10px 1.5rem;
+        padding: 10px 0rem;
+        border-top: 1px solid #fff;
+    }
+    .navbar-end {
+        margin-bottom: 1rem;
     }
     .coach_cont .button {
         padding: 0px 3.5rem;
@@ -1043,6 +1048,17 @@ h1.join-uc {
         width: 80px;
     }
 }
+@media screen and (max-width:1024px){
+    .buttons .button{
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+    }
+    .navbar-end .navbar-item {
+        padding: 10px 0rem;
+        border-top: 1px solid #fff;
+    }
+}
 /* .hero-body.main-psports {
     padding: 0rem 0rem 2rem 5rem;
 } */
@@ -1075,4 +1091,7 @@ h1.join-uc {
 }
 .navbar-brand {
     align-items: center;
+}
+a.navbar-burger span {
+    color: #fff;
 }
