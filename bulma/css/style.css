@@ -639,6 +639,8 @@ section.latset_rev_main {
     border-radius: 100%;
     width: 45px;
     max-height: 40px !important;
+    object-fit: cover;
+    object-position: top;
 }
 .txt_log_user p {
     color: #dddddd;
@@ -1070,4 +1072,7 @@ h1.join-uc {
         background-size: cover !important;
         height: 286px;
     }
+}
+.navbar-brand {
+    align-items: center;
 }
