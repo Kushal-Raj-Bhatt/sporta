@@ -77,6 +77,14 @@ p.title.p-75.title-pad {
     color: #fff;
     background: #0000007d;
 }
+p.title.title-pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    color: #fff;
+    background: #0000007d;
+}
 .icon-align{
     float: right;
     margin-top: -52px;
@@ -98,10 +106,10 @@ p.title.p-75.title-pad {
             background-position: left center;
             background-size: contain !important; 
         }
-        .title-pad{
+        /* .title-pad{
             padding-top: 9.625rem; 
             text-align: center;
-        }
+        } */
         
         .p-20{
             font-size: 1.25rem;
@@ -116,12 +124,12 @@ p.title.p-75.title-pad {
         height: 268px;
         background-repeat: no-repeat;
         background-position: left center;
-        background-size: contain !important; 
+        background-size: cover !important; 
     }
-    .title-pad{
+    /* .title-pad{
         padding-top: 4.625rem; 
         text-align: center;
-    }
+    } */
 }
 @media only screen and (width: 650px) {
     .hero-body.home-banner-cobe2 {
