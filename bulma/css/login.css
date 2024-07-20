@@ -32,8 +32,9 @@ html {
     margin-top: 0rem;
 }
 .login_form .login_social button:hover{
-    background:#9EA3AE;
+    background:#5ab2ff;
     color: #fff;
+    border: 1px solid #5ab2ff;
 }
 .login_form .or_login {
     margin: .5rem 0;
