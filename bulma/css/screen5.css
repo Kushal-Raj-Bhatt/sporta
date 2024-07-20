@@ -29,11 +29,11 @@
     border-radius: 0px !important;
 }
 .logout_btn a { 
-    border-color: #5ab2ff;
+    border-color: #5ab2ff !important;
     border-width: 2px;
     width: 100%;
     background-color: #fff;
-    color: #5ab2ff;
+    color: #5ab2ff !important;
     cursor: pointer;
     justify-content: center;
     padding-bottom: calc(0.5em - 1px);
@@ -48,7 +48,7 @@
 }
 .logout_btn a.is-hovered, .logout_btn a:hover {
     border-color: #5ab2ff;
-    color: #fff;
+    color: #fff !important;
     background: #5ab2ff;
 }
 aside ul li {
