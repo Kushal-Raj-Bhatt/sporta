@@ -52,7 +52,7 @@
     background: #5ab2ff;
 }
 aside ul li {
-    padding-top: 1rem; 
+    padding-top: 0rem; 
 }
 .add_button{
     display: flex; 
@@ -65,19 +65,19 @@ aside ul li {
 }
 .side_menu {
     font-size: 1rem;
-    margin-left: -65px;
+    /* margin-left: -65px; */
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
 
 }
 a#about_link {
-    padding-left: 3.6rem;
+    padding-left: 1rem;
 }
 aside.menu.side_menu ul li a{
-    padding-left: 4rem;
+    padding-left: 1rem;
 } 
 .is-active{
-    border-left: 6px solid black;
+    border-left: 5px solid #5ab2ff;
 }
 
 .control.has-floating-label {
@@ -133,27 +133,26 @@ aside.menu.side_menu ul li a{
 }
 .follow_btn{
     display: flex;
-    width: 90%;
+    width: 100%;
 }
-.control.has-icons-left .icon.is-left {
-    left: 54px;
-    margin-left: -35px;
+.media-left .control.has-icons-left .icon.is-left {
+    left: 25px;
+    margin-left: 0px;
 }
-.control.has-icons-right .icon.is-right {
-    right: 32px;
+.media-left .control.has-icons-right .icon.is-right {
+    right: 40px;
     height: 43px;
+    top: -2px;
+    cursor: pointer;
 }
 span.icon.is-small.is-right.arrow-icon {
     right: 1px;
 }
-.control.has-icons-left .icon, .control.has-icons-right .icon {
+.media-left input{
+    cursor: pointer;
+}
+.follow-box.control.has-icons-left .icon, .control.has-icons-right .icon {
     color: #dbdbdb;
-    height: 2.7em;
-    pointer-events: none;
-    position: absolute;
-    top: -3px;
-    width: 3.6em;
-    z-index: 4;
 }
 .add_btn{
     padding-top: 1.25rem;
@@ -163,6 +162,9 @@ span.icon.is-small.is-right.arrow-icon {
     letter-spacing: 1px;
     word-spacing: -1px;
     
+}
+.follow-box.control.has-icons-left .icon{
+    position: relative;
 }
 .change_profle{
     margin:35px 0 0 25px;
@@ -186,7 +188,7 @@ span.icon.is-small.is-right.arrow-icon {
     }
     .side_menu {
         font-size: 1rem; 
-        margin: 0px -20px 0 -21px;
+        margin: 0;
         font-weight: 600 !important;
     }
     .p-28{
@@ -237,4 +239,7 @@ span.icon.is-small.is-right.arrow-icon {
     border-color: gray;
     right: 1.125em;
     z-index: 4;
+}
+.mobile_profile {
+    margin-bottom: 1rem;
 }
