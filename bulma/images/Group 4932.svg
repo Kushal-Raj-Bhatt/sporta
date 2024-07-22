@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="14.837" viewBox="0 0 15 14.837">
+  <g id="Group_4932" data-name="Group 4932" transform="translate(-116 -3.581)">
+    <g id="ic_close_2" data-name="ic_close 2" transform="translate(116.198 10.169)">
+      <path id="Shape" d="M14.8,1.831v-2H-.2v2Z" fill="gray"/>
+    </g>
+    <g id="ic_close_2-2" data-name="ic_close 2" transform="translate(124.448 3.581) rotate(90)">
+      <path id="Shape-2" data-name="Shape" d="M14.837,1.662V0H0V1.662Z" transform="translate(0 0)" fill="gray"/>
+    </g>
+  </g>
+</svg>

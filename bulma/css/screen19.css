@@ -82,7 +82,11 @@ section.freq_main .accordions .accordion .accordion-header .toggle {
     vertical-align: top;
 }
 .accordions .accordion .accordion-header .toggle::before { 
-    left: 43rem !important; 
+    right: 0rem !important;
+    left: inherit !important;
+}
+.accordion-header button {
+    display: none !important;
 }
 .still_q{
     margin: 2.5rem 0;
