@@ -11,8 +11,9 @@
 .title_label {
     color: #303841;
     display: block;
-    font-size: 0.9rem;
+    font-size: 14px;
     font-weight: 500;
+    text-align: left;
 }
 .box_color{
     color: #E7F0F7 !important;
