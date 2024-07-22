@@ -870,7 +870,7 @@ h1.join-uc {
         }
         .rv_pic img {
             width: 225px !important;
-            height: 45px !important;
+            height: auto !important;
             border-radius: 100%;
         }
         .list_rv {
