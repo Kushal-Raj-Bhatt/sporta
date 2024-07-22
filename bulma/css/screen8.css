@@ -179,6 +179,9 @@ section.hero.active_d_header_pic {
     padding-left: 10px;
     height: 100%;
 }
+p.subtitle.listing_bard {
+    margin-top: .5rem;
+}
 .form_here .field .control .select{
     width: 100%;
 }
