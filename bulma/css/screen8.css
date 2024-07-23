@@ -458,7 +458,17 @@ section.hero.active_d_header_pic.pp_bg_pic.is-hidden-desktop.mob_pp_one.is-hidde
     width: 100%;
     gap: 10px;
 }
-.btn-listing{
-    gap: 10px;
+
+@media screen and (min-width: 1025px){
+    .btn-listing{
+        gap: 10px;
+        justify-content: center;
+    }
 }
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 1150px;
+    }
+}
+
 
