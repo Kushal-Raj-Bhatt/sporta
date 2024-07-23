@@ -269,12 +269,12 @@ p.subtitle.listing_bard i{
     /* .active_details_form {
         padding: 5px 0rem 5px 0rem;
     } */
-    /* .scroll_me{
-        width: 380px;
+    .scroll_me{
+        width: 320px;
         overflow-x: auto;
         padding-bottom: 1rem;
         
-    } */
+    }
     section.hero.active_d_header_pic {
         padding: 0px 1rem !important;
     }
