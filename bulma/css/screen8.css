@@ -11,9 +11,9 @@
 section.hero.active_d_header_pic { 
     height: 150px;
 }
-.main_active_d {
+/* .main_active_d {
     padding: 10px 1rem;
-}
+} */
 .same_line i.fa-solid.fa-check {
     width: 25px;
     background: #14C185;
@@ -166,9 +166,10 @@ section.hero.active_d_header_pic {
     font-weight: 700;
 
 }
-.form_here .field{
+.form_here .field {
     position: relative;
     width: 100%;
+    margin-bottom: 15px;
 }
 .form_here .field .control input {
     font-weight: 600;
@@ -236,7 +237,7 @@ p.subtitle.listing_bard {
 }
 .form_here .field.is-grouped {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 .heading_listing {
     font-size: 1.75rem;
@@ -268,12 +269,12 @@ p.subtitle.listing_bard i{
     /* .active_details_form {
         padding: 5px 0rem 5px 0rem;
     } */
-    .scroll_me{
+    /* .scroll_me{
         width: 380px;
         overflow-x: auto;
         padding-bottom: 1rem;
         
-    }
+    } */
     section.hero.active_d_header_pic {
         padding: 0px 1rem !important;
     }
@@ -444,7 +445,12 @@ section.hero.active_d_header_pic.pp_bg_pic.is-hidden-desktop.mob_pp_one.is-hidde
     }
 }
 
+
 /* Pravicy page css end */
 
-
+.active_details_form {
+    box-shadow: 0px 3px 40px #00000019;
+    padding: 1rem;
+    margin: 2rem 0px;
+}
 
