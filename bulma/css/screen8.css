@@ -453,4 +453,12 @@ section.hero.active_d_header_pic.pp_bg_pic.is-hidden-desktop.mob_pp_one.is-hidde
     padding: 1rem;
     margin: 2rem 0px;
 }
+.btn-listing button{
+    margin-top: 1rem;
+    width: 100%;
+    gap: 10px;
+}
+.btn-listing{
+    gap: 10px;
+}
 
